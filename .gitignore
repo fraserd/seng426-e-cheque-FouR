@@ -117,3 +117,6 @@ nb-configuration.xml
 .nb-gradle/
 
 Thumbs.db
+
+#OS X
+.DS_Store
