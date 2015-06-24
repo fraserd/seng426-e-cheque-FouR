@@ -109,6 +109,7 @@ crashlytics-build.properties
 nbproject/private/
 nbproject/
 build/
+dist/
 nbbuild/
 nbdist/
 nbactions.xml
