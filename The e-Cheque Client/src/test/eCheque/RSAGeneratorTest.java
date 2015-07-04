@@ -1,8 +1,12 @@
 package test.eCheque;
 
+import eCheque.RSAGenerator;
 import org.junit.Test;
 import org.junit.Before;
 import org.junit.After;
+
+import java.security.KeyPair;
+import java.security.interfaces.RSAKey;
 
 /**
  * RSAGenerator Tester.
@@ -26,8 +30,13 @@ public class RSAGeneratorTest {
      */
     @Test
     public void testGenerateRSAKeys() throws Exception {
-//TODO: Test goes here... 
+
+        // The RSAGenerator class generates PKI keys using Rsa with key size 1024
+        RSAGenerator generatorUnderTest = new RSAGenerator();
+
+        KeyPair generatedKey = generatorUnderTest.GenerateRSAKeys();
+        assert(generatedKey.getPublic().getAlgorithm().equals("RSA"));
+        RSAKey rsaKey = (RSAKey) generatedKey.getPublic();
+        assert(rsaKey.getModulus().bitLength() == 1024);
     }
-
-
 } 
