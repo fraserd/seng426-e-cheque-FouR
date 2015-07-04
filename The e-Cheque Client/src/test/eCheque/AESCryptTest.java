@@ -7,7 +7,7 @@ import org.junit.After;
 /** 
 * AESCrypt Tester. 
 * 
-* @author <Authors name> 
+* @author Fraser DeLisle
 * @since <pre>Jun 24, 2015</pre> 
 * @version 1.0 
 */ 
