@@ -1,54 +1,48 @@
-package test.eCheque; 
+package test.eCheque;
 
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-/** 
-* EchequeClient Tester. 
-* 
-* @author Fraser DeLisle
-* @since <pre>Jun 10, 2015</pre> 
-* @version 1.0 
-*/ 
-public class EchequeClientTest { 
+/**
+ * EchequeClient Tester.
+ *
+ * @author Fraser DeLisle
+ * @version 1.0
+ * @since <pre>Jun 10, 2015</pre>
+ */
+public class EchequeClientTest {
 
-@Before
-public void before() throws Exception { 
-} 
+    @Before
+    public void before() throws Exception {
+    }
 
-@After
-public void after() throws Exception { 
-} 
+    @After
+    public void after() throws Exception {
+    }
 
-/** 
-* 
-* Method: RunClient() 
-* 
-*/ 
-@Test
-public void testRunClient() throws Exception { 
+    /**
+     * Method: RunClient()
+     */
+    @Test
+    public void testRunClient() throws Exception {
 //TODO: Test goes here... 
-} 
+    }
 
-/** 
-* 
-* Method: run() 
-* 
-*/ 
-@Test
-public void testRun() throws Exception { 
+    /**
+     * Method: run()
+     */
+    @Test
+    public void testRun() throws Exception {
 //TODO: Test goes here... 
-} 
+    }
 
 
-/** 
-* 
-* Method: ConnectToServer() 
-* 
-*/ 
-@Test
-public void testConnectToServer() throws Exception { 
+    /**
+     * Method: ConnectToServer()
+     */
+    @Test
+    public void testConnectToServer() throws Exception {
 //TODO: Test goes here... 
 /* 
 try { 
@@ -59,16 +53,14 @@ try {
 } catch(IllegalAccessException e) { 
 } catch(InvocationTargetException e) { 
 } 
-*/ 
-} 
+*/
+    }
 
-/** 
-* 
-* Method: getSocketStream() 
-* 
-*/ 
-@Test
-public void testGetSocketStream() throws Exception { 
+    /**
+     * Method: getSocketStream()
+     */
+    @Test
+    public void testGetSocketStream() throws Exception {
 //TODO: Test goes here... 
 /* 
 try { 
@@ -79,16 +71,14 @@ try {
 } catch(IllegalAccessException e) { 
 } catch(InvocationTargetException e) { 
 } 
-*/ 
-} 
+*/
+    }
 
-/** 
-* 
-* Method: processConnection() 
-* 
-*/ 
-@Test
-public void testProcessConnection() throws Exception { 
+    /**
+     * Method: processConnection()
+     */
+    @Test
+    public void testProcessConnection() throws Exception {
 //TODO: Test goes here... 
 /* 
 try { 
@@ -99,16 +89,14 @@ try {
 } catch(IllegalAccessException e) { 
 } catch(InvocationTargetException e) { 
 } 
-*/ 
-} 
+*/
+    }
 
-/** 
-* 
-* Method: CloseConnection() 
-* 
-*/ 
-@Test
-public void testCloseConnection() throws Exception { 
+    /**
+     * Method: CloseConnection()
+     */
+    @Test
+    public void testCloseConnection() throws Exception {
 //TODO: Test goes here... 
 /* 
 try { 
@@ -119,16 +107,14 @@ try {
 } catch(IllegalAccessException e) { 
 } catch(InvocationTargetException e) { 
 } 
-*/ 
-} 
+*/
+    }
 
-/** 
-* 
-* Method: processBankConection() 
-* 
-*/ 
-@Test
-public void testProcessBankConection() throws Exception { 
+    /**
+     * Method: processBankConection()
+     */
+    @Test
+    public void testProcessBankConection() throws Exception {
 //TODO: Test goes here... 
 /* 
 try { 
@@ -139,7 +125,7 @@ try {
 } catch(IllegalAccessException e) { 
 } catch(InvocationTargetException e) { 
 } 
-*/ 
-} 
+*/
+    }
 
 } 
