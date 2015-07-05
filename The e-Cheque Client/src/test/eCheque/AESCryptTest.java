@@ -1,8 +1,15 @@
 package test.eCheque;
 
+import eCheque.AESCrypt;
+import eCheque.RSAGenerator;
 import org.junit.Test;
 import org.junit.Before;
 import org.junit.After;
+
+import javax.crypto.Cipher;
+import javax.crypto.SecretKey;
+import java.security.Key;
+import java.security.interfaces.RSAKey;
 
 /**
  * AESCrypt Tester.
@@ -26,7 +33,9 @@ public class AESCryptTest {
      */
     @Test
     public void testGenerateRandomAESKey() throws Exception {
-//TODO: Test goes here... 
+        AESCrypt aesCryptUnderTest = new AESCrypt();
+        SecretKey keyUnderTest = aesCryptUnderTest.GenerateRandomAESKey();
+        assert(keyUnderTest.getAlgorithm().equals("AES"));
     }
 
     /**
@@ -34,7 +43,25 @@ public class AESCryptTest {
      */
     @Test
     public void testInitializeCipher() throws Exception {
-//TODO: Test goes here... 
+        AESCrypt aesCryptUnderTest = new AESCrypt();
+        // get an AES key to use
+        SecretKey aesKey1 = aesCryptUnderTest.GenerateRandomAESKey();
+        // get an RSA key to use
+        RSAKey rsaKey1 = (RSAKey) new RSAGenerator().GenerateRSAKeys().getPrivate();
+
+        Cipher cipher = aesCryptUnderTest.initializeCipher(aesKey1, 0);
+        assert( cipher.getAlgorithm().equals("AES"));
+
+        cipher = aesCryptUnderTest.initializeCipher(aesKey1, 1);
+        assert( cipher.getAlgorithm().equals("AES"));
+
+        cipher = aesCryptUnderTest.initializeCipher((Key) rsaKey1, 2);
+        assert( cipher.getAlgorithm().equals("RSA"));
+
+        cipher = aesCryptUnderTest.initializeCipher((Key) rsaKey1, 3);
+        assert( cipher.getAlgorithm().equals("RSA"));
+
+
     }
 
     /**
