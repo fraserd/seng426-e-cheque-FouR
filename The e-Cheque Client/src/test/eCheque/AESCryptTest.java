@@ -5,6 +5,7 @@ import eCheque.RSAGenerator;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import static org.junit.Assert.*;
 
 import javax.crypto.Cipher;
 import javax.crypto.SecretKey;
@@ -18,7 +19,7 @@ import java.security.MessageDigest;
 import java.security.interfaces.RSAKey;
 import java.util.Arrays;
 
-import static org.junit.Assert.*;
+
 
 /**
  * AESCrypt Tester.
