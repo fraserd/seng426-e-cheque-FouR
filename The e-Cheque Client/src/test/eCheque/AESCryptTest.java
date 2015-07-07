@@ -2,14 +2,23 @@ package test.eCheque;
 
 import eCheque.AESCrypt;
 import eCheque.RSAGenerator;
-import org.junit.Test;
-import org.junit.Before;
 import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
 
 import javax.crypto.Cipher;
 import javax.crypto.SecretKey;
+import javax.crypto.spec.SecretKeySpec;
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.InputStream;
+import java.nio.charset.StandardCharsets;
 import java.security.Key;
+import java.security.MessageDigest;
 import java.security.interfaces.RSAKey;
+import java.util.Arrays;
+
+import static org.junit.Assert.*;
 
 /**
  * AESCrypt Tester.
@@ -69,7 +78,55 @@ public class AESCryptTest {
      */
     @Test
     public void testCrypt() throws Exception {
-//TODO: Test goes here... 
+        // prepare:
+        byte[] keyByteArray = ("non-random passphrase to generate a constant key").getBytes("UTF-8");
+        MessageDigest sha = MessageDigest.getInstance("SHA-1");
+        keyByteArray = sha.digest(keyByteArray);
+        keyByteArray = Arrays.copyOf(keyByteArray, 16); // use only first 128 bit
+        SecretKeySpec secretKeySpec = new SecretKeySpec(keyByteArray, "AES");
+        SecretKey key = (SecretKey) secretKeySpec;
+        Cipher cipher = Cipher.getInstance("AES");
+        cipher.init(Cipher.ENCRYPT_MODE, secretKeySpec);
+
+        AESCrypt aesCryptUnderTest = new AESCrypt();
+
+        Cipher encryptionCipher = Cipher.getInstance("AES");
+        encryptionCipher.init(Cipher.ENCRYPT_MODE, key);
+        Cipher decryptionCipher = Cipher.getInstance("AES");
+        decryptionCipher.init(Cipher.DECRYPT_MODE, key);
+
+        System.out.println("key: " + key.getEncoded().toString());
+
+        String plaintext = "hello world";
+        String ciphertext = "";
+        InputStream input = new ByteArrayInputStream(plaintext.getBytes(StandardCharsets.UTF_8));
+        ByteArrayOutputStream output = new ByteArrayOutputStream();
+
+        System.out.println("plaintext: " + plaintext);
+        System.out.println("plaintext length: " + plaintext.length());
+
+        // test encryption:
+        aesCryptUnderTest.crypt(input, output, encryptionCipher);
+        input.close();
+        ciphertext = output.toString(StandardCharsets.UTF_8.toString());
+
+
+        System.out.println("ciphertext: " + ciphertext + ";");
+        System.out.println("ciphertext length: " + ciphertext.length());
+
+        assertTrue(!plaintext.equals(ciphertext));
+
+        // test decryption:
+        input = new ByteArrayInputStream(output.toByteArray());
+        output = new ByteArrayOutputStream();
+        aesCryptUnderTest.crypt(input, output, decryptionCipher);
+        input.close();
+        String decryptedCiphertext = output.toString(StandardCharsets.UTF_8.toString());
+
+        System.out.println("decrypted ciphertext: " + decryptedCiphertext);
+        System.out.println("decrypted ciphertext length: " + decryptedCiphertext.length());
+
+        assertTrue(plaintext.equals(decryptedCiphertext));
     }
 
     /**
