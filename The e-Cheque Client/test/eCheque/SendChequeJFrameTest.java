@@ -1,4 +1,4 @@
-package test.eCheque;
+package eCheque;
 
 import org.junit.Test;
 import org.junit.Before;

@@ -1,4 +1,4 @@
-package test.eCheque;
+package eCheque;
 
 import eCheque.AESCrypt;
 import eCheque.RSAGenerator;
@@ -135,7 +135,20 @@ public class AESCryptTest {
      */
     @Test
     public void testInilizeAESKeyByPassword() throws Exception {
-//TODO: Test goes here... 
+        AESCrypt aesCryptUnderTest = new AESCrypt();
+        String password = "humptydumpty";
+        SecretKeySpec secretKey = aesCryptUnderTest.inilizeAESKeyByPassword(password);
+        assertTrue(secretKey.getAlgorithm().equals("AES"));
+
+        password = "";
+
+        try {
+            SecretKeySpec secretKeyWithEmptyPassword = aesCryptUnderTest.inilizeAESKeyByPassword(password);
+            assertTrue(secretKeyWithEmptyPassword.getAlgorithm().equals("AES"));
+        } catch (java.lang.IllegalArgumentException e) {
+            assertTrue(e.getMessage().equals("Empty key"));
+        }
+
     }
 
 

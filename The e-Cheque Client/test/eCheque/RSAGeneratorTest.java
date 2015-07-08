@@ -1,4 +1,4 @@
-package test.eCheque;
+package eCheque;
 
 import eCheque.RSAGenerator;
 import org.junit.Test;
