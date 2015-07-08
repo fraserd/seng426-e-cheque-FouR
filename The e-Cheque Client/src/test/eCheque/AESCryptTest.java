@@ -1,4 +1,4 @@
-package eCheque;
+package test.eCheque;
 
 import eCheque.AESCrypt;
 import eCheque.RSAGenerator;
