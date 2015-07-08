@@ -36,14 +36,12 @@ public class DigitalCertificateIOTest {
 		//Remove all directories and files that were created during testing
 		deleteDirectory(new File(ROOT_TEST_DIRECTORY));		
 	}
-
+	
 	@Test
-	public void testSaveAndReadDC() throws Exception {
-		
+	public void testSaveAndReadNewFile() {
 		DigitalCertificateIO dcIO = new DigitalCertificateIO();
 		String filePath;
-		DigitalCertificate originalDC;
-		
+		DigitalCertificate originalDC;	
 		
 		//Test saving to a directory that does exist but the file does not
 		filePath = ROOT_TEST_DIRECTORY + "testFileDoesNotExist.edc";
@@ -78,7 +76,13 @@ public class DigitalCertificateIOTest {
 			e.printStackTrace();
 			fail("FAIL: Could not read a DigitalCertificate that was saved");
 		}
-		
+	}
+	
+	@Test
+	public void testSaveAndReadEmptyFile() throws Exception {
+		DigitalCertificateIO dcIO = new DigitalCertificateIO();
+		String filePath;
+		DigitalCertificate originalDC;
 		
 		//Test saving to an empty file that does exist
 		filePath = ROOT_TEST_DIRECTORY + "testFileExists.edc";
@@ -118,12 +122,18 @@ public class DigitalCertificateIOTest {
 			e.printStackTrace();
 			fail("FAIL: Could not read a DigitalCertificate that was saved");
 		}
-		
+	}
+	
+	@Test
+	public void testSaveAndReadNewFolder() {
+		DigitalCertificateIO dcIO = new DigitalCertificateIO();
+		String filePath;
+		DigitalCertificate originalDC;
 		
 		//Test saving to a file in a folder that does not exist
 		filePath = ROOT_TEST_DIRECTORY + "/folderDoesNotExist/test.edc";
 		originalDC = new DigitalCertificate();
-		
+
 		try {
 			dcIO.SaveDC(originalDC, filePath);
 			assertTrue("FAIL: The file does not exist after saving a DigitalCertificate to it", new File(filePath).exists());
@@ -132,13 +142,13 @@ public class DigitalCertificateIOTest {
 			e.printStackTrace();
 			fail("FAIL: Could not save a digital certificate to a file within a folder that does not exist");
 		}
-			
+
 		//Test reading of the DigitalCertificate that was just saved
 		try {
-									
+
 			DigitalCertificate savedDC = dcIO.readDigitalCertificate(filePath);
 			assertNotNull("FAIL: Read certificate is null", savedDC);
-						
+
 			assertEquals("FAIL: holderName of original and read certificate do not match", originalDC.getHolderName(), savedDC.getHolderName());
 			assertEquals("FAIL: issuer of original and read certificate do not match", originalDC.getIssuer(), savedDC.getIssuer());
 			assertArrayEquals("FAIL: issuerSignature of original and read certificate do not match", originalDC.getIssuerSignature(), savedDC.getIssuerSignature());
@@ -152,7 +162,12 @@ public class DigitalCertificateIOTest {
 			e.printStackTrace();
 			fail("FAIL: Could not read a DigitalCertificate that was saved");
 		}
-		
+	}
+	
+	@Test
+	public void testReadNonExistentFile() {
+		DigitalCertificateIO dcIO = new DigitalCertificateIO();
+		String filePath;
 		
 		//Test reading a certificate from a file that does not exist
 		filePath = ROOT_TEST_DIRECTORY + "randomFileDoesNotExist.edc";
@@ -162,15 +177,25 @@ public class DigitalCertificateIOTest {
 		}
 		catch(Exception e) { }
 		assertNull("FAIL: The certificate object returned is somehow non-null", savedDCFailedRead);
-		
-		
+	}
+	
+	@Test
+	public void testReadNonDCFile() {
 		//TODO: Test reading from a file that does exist but does not
 		//correspond to a digitalcertificate
-		
-			
+		fail("not implemented");
+	}
+	
+	@Test
+	public void testSaveDifferentFileExtensions() {
 		//TODO: Test reading/writing to a file with a different extension than .edc (ex .txt)
-		
+		fail("not implemented");
+	}
+	
+	@Test
+	public void testSaveReadNonNullPublicKey() {
 		//TODO: Test reading and writing a certificate with a non-null publicKey
+		fail("not implemented");
 	}
 
 }
