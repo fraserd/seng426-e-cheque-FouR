@@ -7,7 +7,12 @@ import org.junit.Test;
 public class DigitalCertificateIOTest {
 
 	@Test
-	public void test() {
+	public void testSaveDC() {
+		fail("Not yet implemented");
+	}
+	
+	@Test
+	public void testReadDigitalCertificate() {
 		fail("Not yet implemented");
 	}
 
