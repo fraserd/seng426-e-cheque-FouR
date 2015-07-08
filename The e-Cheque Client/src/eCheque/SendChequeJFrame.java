@@ -11,7 +11,7 @@ package eCheque;
  * @author  Saad
  */
 //import com.Trendy.swing.plaf.TrendyLookAndFeel;
-import com.sun.crypto.provider.AESCipher;
+import com.sun.crypto.provider.*;
 import java.io.IOException;
 import javax.crypto.Cipher;
 import javax.swing.UIManager;
