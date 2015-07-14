@@ -16,7 +16,7 @@ import org.junit.Test;
 
 import eCheque.DigitalCertificate;
 import eCheque.DigitalCertificateIO;
-import eCheque.RSAGenerator;
+//import eCheque.RSAGenerator;
 
 public class DigitalCertificateIOTest {
 	
@@ -281,11 +281,9 @@ public class DigitalCertificateIOTest {
 			fail("FAIL: Could not read a DigitalCertificate that was saved in a .c file");
 		}
 	}
-	
+/*
 	@Test
 	public void testSaveReadNonNullPublicKey() throws Exception {
-		//TODO: Test reading and writing a certificate with a non-null publicKey
-		
 		
 		DigitalCertificateIO dcIO = new DigitalCertificateIO();
 		String filePath;
@@ -342,5 +340,6 @@ public class DigitalCertificateIOTest {
 		}
 		
 	}
+*/
 
 }

@@ -14,7 +14,7 @@ import java.io.*;
  *
  * @author Basel
  */
-public class EChequeIO
+public class    EChequeIO
 {
         
    public void savecheque(ECheque obj,String filename)//(ECheque x,String filebath)

@@ -37,8 +37,8 @@ public class EChequeDB {
 
     /** Creates a new instance of EChequeDB */
     public EChequeDB() {
-        userName ="ebankSeng426";
-        password="Seng@426";
+        userName ="se426g01";
+        password="8cLWdS5Q";
 
         //userName ="seng426";
         //password="log2IT05";
