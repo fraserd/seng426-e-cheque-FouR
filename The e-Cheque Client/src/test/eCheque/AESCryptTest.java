@@ -64,7 +64,7 @@ public class AESCryptTest {
 
         cipher = aesCryptUnderTest.initializeCipher(aesKey1, 1);
         assert( cipher.getAlgorithm().equals("AES"));
-
+        // FIXME: this is AESCrypt. Why would it output an RSA key? these following two tests should fail
         cipher = aesCryptUnderTest.initializeCipher((Key) rsaKey1, 2);
         assert( cipher.getAlgorithm().equals("RSA"));
 
