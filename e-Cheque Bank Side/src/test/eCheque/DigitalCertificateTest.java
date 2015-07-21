@@ -2,14 +2,13 @@ package test.eCheque;
 
 import static org.junit.Assert.*;
 
-import java.security.KeyPair;
+import java.security.KeyPairGenerator;
 import java.security.NoSuchAlgorithmException;
 import java.security.PublicKey;
 
 import org.junit.Test;
 
 import eCheque.DigitalCertificate;
-import eCheque.RSAGenerator;
 
 public class DigitalCertificateTest {
 
@@ -142,8 +141,7 @@ public class DigitalCertificateTest {
 		assertNull(dc.getpublicKey());
 		
 		try {
-			KeyPair rsaKeys = new RSAGenerator().GenerateRSAKeys();
-			pubKey = rsaKeys.getPublic();
+			pubKey = KeyPairGenerator.getInstance("RSA").generateKeyPair().getPublic();
 		} catch (NoSuchAlgorithmException e) {
 			fail("Testing of setter and getter for publicKey attribute is blocked by an issue in the RSAGenerator class: the GenerateRSAKeys() method is throwing an exception");
 		}
@@ -154,7 +152,7 @@ public class DigitalCertificateTest {
 		dc.setPublicKey(null);
 		assertNull(dc.getpublicKey());
 	}
-	
+
 	@Test
 	public void testSetIssuerSignature() {
 		
