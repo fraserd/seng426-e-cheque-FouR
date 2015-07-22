@@ -438,9 +438,9 @@ public class RegistrationJFrame extends javax.swing.JFrame {
         registerationObj.setBankAddress(bankURL);
         registerationObj.setClientName(clientName);
         registerationObj.setAccountNumber(accountNumber);
-        registerationObj.setEWalletLoaction(eWalletPath);
+        registerationObj.setEWalletLocation(eWalletPath);
         registerationObj.setUsername(userNameCode);
-        registerationObj.setPasword(passwordCode);
+        registerationObj.setPassword(passwordCode);
 
         try {
             ObjectOutputStream outObj;

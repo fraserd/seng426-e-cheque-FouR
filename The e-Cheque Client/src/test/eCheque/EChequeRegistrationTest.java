@@ -76,8 +76,8 @@ public class EChequeRegistrationTest {
 		EChequeRegistration ecr = new EChequeRegistration();
 		
 		try{
-			ecr.setEWalletLoaction("path");
-			assert(ecr.getEWalletLoaction().equals("path"));
+			ecr.setEWalletLocation("path");
+			assert(ecr.getEWalletLocation().equals("path"));
 		}catch(Exception e){
 			fail();
 		}
@@ -106,8 +106,8 @@ public class EChequeRegistrationTest {
 		EChequeRegistration ecr = new EChequeRegistration();
 		
 		try{
-			ecr.setPasword(5678);
-			assert(ecr.getPasword() == 5678);
+			ecr.setPassword(5678);
+			assert(ecr.getPassword() == 5678);
 		}catch(Exception e){
 			fail();
 		}
