@@ -18,8 +18,7 @@ import javax.swing.JFileChooser;
 import java.io.File;
 
 public class EBankingJFrame extends javax.swing.JFrame {
-    
-    private String chequePath;
+
     private boolean selectChequeFlag;
     private EChequeRegisteration registerData;
     private ECheque depositCheque;
@@ -31,10 +30,10 @@ public class EBankingJFrame extends javax.swing.JFrame {
             //UIManager.setLookAndFeel(tlf);
         }
         catch(Exception e){
-            
+
             //JOptionPane.showMessageDialog(null,"System Error", "can not found themes", JOptionPane.ERROR_MESSAGE);
-        
-        }    
+
+        }
         initComponents();
         registerData = registerdUser;
         selectChequeFlag = false;
@@ -232,6 +231,7 @@ public class EBankingJFrame extends javax.swing.JFrame {
 
     private void jBLoadChequeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBLoadChequeActionPerformed
 // TODO add your handling code here:
+    String chequePath;
     chequePath = getFileLoaction("Open Saved Cheque"); 
     if(chequePath.length()!=0){
         try{
