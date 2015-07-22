@@ -43,8 +43,8 @@ public class EBankingJFrame extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         jBLoadCheque = new javax.swing.JButton();
         jLabel3 = new javax.swing.JLabel();
-        jCBDeposit = new javax.swing.JCheckBox();
-        jCBCancel = new javax.swing.JCheckBox();
+        jCBDeposit = new javax.swing.JRadioButton();
+        jCBCancel = new javax.swing.JRadioButton();
         jBSubmit = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
@@ -267,8 +267,8 @@ public class EBankingJFrame extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jBLoadCheque;
     private javax.swing.JButton jBSubmit;
-    private javax.swing.JCheckBox jCBCancel;
-    private javax.swing.JCheckBox jCBDeposit;
+    private javax.swing.JRadioButton jCBCancel;
+    private javax.swing.JRadioButton jCBDeposit;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;

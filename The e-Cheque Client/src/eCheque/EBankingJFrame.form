@@ -174,7 +174,7 @@
                 <Property name="text" type="java.lang.String" value="Operation Type"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCBDeposit">
+            <Component class="javax.swing.JRadioButton" name="jRBDeposit">
               <Properties>
                 <Property name="text" type="java.lang.String" value="deposit"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -190,7 +190,7 @@
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCBDepositActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JCheckBox" name="jCBCancel">
+            <Component class="javax.swing.JRadioButton" name="jRBCancel">
               <Properties>
                 <Property name="text" type="java.lang.String" value="cancel"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
