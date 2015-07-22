@@ -202,22 +202,21 @@ public void RunClient()
  {
      
     try {
-           
-           if(!bankConnection)
-                screenShell.append("\n\n>> Connecting to echeque host");
-           ConnectToServer ();
-           if(!bankConnection)
-                screenShell.append("\n\n>> you are connected");
-           getSocketStream ();
-           if(!bankConnection)
-                screenShell.append("\n\n>> you are connected");
-           
-           if(!bankConnection){
-               screenShell.append("\n\n>> Starting cheque tarnsfer");
-               processConnection ();
-           }
-           else
-              processBankConection();
+    	
+    	if(!bankConnection) {
+            screenShell.append("\n\n>> Connecting to echeque host");
+            ConnectToServer();
+            screenShell.append("\n\n>> you are connected");
+            getSocketStream();
+            screenShell.append("\n\n>> you are connected");
+            screenShell.append("\n\n>> Starting cheque tarnsfer");
+            processConnection();
+    	}
+    	else {
+            ConnectToServer();
+            getSocketStream();
+            processBankConection();
+    	}
      }
     
      catch(Exception error)
