@@ -1,6 +1,6 @@
 package test.eCheque;
 
-import eCheque.EChequeRegisteration;
+import eCheque.EChequeRegistration;
 import eCheque.SendChequeJFrame;
 import org.junit.Test;
 import org.junit.Before;
@@ -35,7 +35,7 @@ public class SendChequeJFrameTest {
 
     @Test
     public void testSendChequeJFrame() throws Exception {
-        EChequeRegisteration user = new EChequeRegisteration();
+        EChequeRegistration user = new EChequeRegistration();
         user.setUsername("fmd".hashCode());
         user.setPasword("fuck".hashCode());
         user.setAccountNumber("01");
@@ -84,7 +84,7 @@ public class SendChequeJFrameTest {
     @Test
     public void testGetFileLoaction() throws Exception {
 // need a user object to give unto the constructor of the jframe
-        EChequeRegisteration user = new EChequeRegisteration();
+        EChequeRegistration user = new EChequeRegistration();
         SendChequeJFrame frameUnderTest = new SendChequeJFrame(user);
 
 

@@ -31,10 +31,10 @@ public class SendChequeJFrame extends javax.swing.JFrame {
     private String recieverIP;
     private String cipherChequePath;
     private boolean selectChequeFlag;
-    private EChequeRegisteration eChequeRegisterdUser; 
+    private EChequeRegistration eChequeRegisterdUser; 
     
     /** Creates new form SendChequeJFrame */
-    public SendChequeJFrame(EChequeRegisteration registerdUser) {   
+    public SendChequeJFrame(EChequeRegistration registerdUser) {   
         initComponents();
         eChequeRegisterdUser = registerdUser;
     }

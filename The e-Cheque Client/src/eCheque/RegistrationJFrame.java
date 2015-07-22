@@ -403,7 +403,7 @@ public class RegistrationJFrame extends javax.swing.JFrame {
                                                         //For Test: JOptionPane.showMessageDialog(null,passTemp);
                                                         
                                                         //create a registeration object to save user registeration data
-                                                        EChequeRegisteration registerationObj = new EChequeRegisteration();
+                                                        EChequeRegistration registerationObj = new EChequeRegistration();
                                                         registerationObj.setBankName(bankName);
                                                         registerationObj.setBankAddress(bankURL);
                                                         registerationObj.setClientName(clientName);

@@ -31,7 +31,7 @@ public class ElectronicChequeJFrame extends javax.swing.JFrame {
     private EBankingJFrame eBankingWindow;
     private ChequeJFrame eChequeWindow;
     private SendChequeJFrame sendChequeWindow;
-    private EChequeRegisteration registerdUser;
+    private EChequeRegistration registerdUser;
     private ReceiveChequeJFrame receiveChequeWindow;
     private String userName;
     private String passTemp;
@@ -399,9 +399,9 @@ public class ElectronicChequeJFrame extends javax.swing.JFrame {
     
     private void loadUserInfo(){
         try{
-           registerdUser = new EChequeRegisteration();
+           registerdUser = new EChequeRegistration();
            ObjectInputStream readObj = new ObjectInputStream(new FileInputStream("Config.epc"));
-           registerdUser = (EChequeRegisteration)readObj.readObject();
+           registerdUser = (EChequeRegistration)readObj.readObject();
            activationNeed = false;
            jBActivaton.setEnabled(true);
            jTUserName.setEnabled(true);

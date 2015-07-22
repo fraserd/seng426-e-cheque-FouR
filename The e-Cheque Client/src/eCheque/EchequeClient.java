@@ -36,7 +36,7 @@ private ObjectOutputStream SocketOutputObject;
 private InputStream SocketInput;
 private OutputStream SocketOutput;
 private DigitalCertificate clientCerit;
-private EChequeRegisteration registrationData;
+private EChequeRegistration registrationData;
 private ECheque depositCheque;
 private JTextArea screenShell;
 private Key sessionKey;
@@ -66,7 +66,7 @@ public EchequeClient(JTextArea screen , DigitalCertificate DC,Key aesKey,String 
     bankConnection = false;
 }
 
-public EchequeClient(int port, int mode, String host, EChequeRegisteration register, DigitalCertificate DC){
+public EchequeClient(int port, int mode, String host, EChequeRegistration register, DigitalCertificate DC){
         
      portID = port;
      bankmode = mode;
@@ -77,7 +77,7 @@ public EchequeClient(int port, int mode, String host, EChequeRegisteration regis
    
 }
 
-public EchequeClient(int port, int mode, String host,EChequeRegisteration register, ECheque chq){
+public EchequeClient(int port, int mode, String host,EChequeRegistration register, ECheque chq){
     portID = port;
     bankmode = mode;
     hostname= host;

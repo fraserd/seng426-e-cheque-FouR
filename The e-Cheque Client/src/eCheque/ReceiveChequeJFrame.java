@@ -22,13 +22,13 @@ import java.net.ServerSocket;
 
 public class ReceiveChequeJFrame extends javax.swing.JFrame {
     
-     private EChequeRegisteration eChequeReg;
+     private EChequeRegistration eChequeReg;
      private PrivateKey privKey;
      private ServerSocket serverSocket;
      private boolean serverStartFlage;
      
     /** Creates new form ReceiveChequeJFrame */
-    public ReceiveChequeJFrame(EChequeRegisteration eChqReg, PrivateKey pKey) {    
+    public ReceiveChequeJFrame(EChequeRegistration eChqReg, PrivateKey pKey) {    
         initComponents();
         eChequeReg = eChqReg;
         privKey = pKey;

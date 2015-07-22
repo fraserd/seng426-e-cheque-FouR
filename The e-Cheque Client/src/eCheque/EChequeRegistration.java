@@ -16,7 +16,7 @@ package eCheque;
 
 import java.io.Serializable;
 
-public class EChequeRegisteration implements Serializable {
+public class EChequeRegistration implements Serializable {
     
     private String bankName;
     private String bankAddress;
@@ -27,7 +27,7 @@ public class EChequeRegisteration implements Serializable {
     private int passwordHash;
     
     /** Creates a new instance of EChequeRegisteration */
-    public EChequeRegisteration() {
+    public EChequeRegistration() {
     }
     
     public void setBankName(String bName){

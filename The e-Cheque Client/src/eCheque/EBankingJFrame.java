@@ -20,10 +20,10 @@ import java.io.File;
 public class EBankingJFrame extends javax.swing.JFrame {
 
     private boolean selectChequeFlag;
-    private EChequeRegisteration registerData;
+    private EChequeRegistration registerData;
     private ECheque depositCheque;
     /** Creates new form EBankingJFrame */
-    public EBankingJFrame(EChequeRegisteration registerdUser) {
+    public EBankingJFrame(EChequeRegistration registerdUser) {
         initComponents();
         registerData = registerdUser;
         selectChequeFlag = false;
