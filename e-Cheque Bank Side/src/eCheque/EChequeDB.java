@@ -15,7 +15,6 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.sql.DriverManager;
 import javax.swing.JOptionPane;
-import javax.swing.JTextArea;
 
 /**
  *
@@ -68,22 +67,22 @@ public class EChequeDB {
         }
     }
     
-    private boolean createStatment()throws SQLException{
+    private boolean createStatement()throws SQLException{
         
         sqlStatement = connection.createStatement();
         return true;
     }
     
-    private void executeSQLStatment(String statment, int statType) throws SQLException{
+    private void executeSQLStatement(String statement, int statType) throws SQLException{
         
-        // Initialize sql statment and excute it.
+        // Initialize sql statement and excute it.
         
         if(statType == 0){
-            resultSet = sqlStatement.executeQuery(statment);
+            resultSet = sqlStatement.executeQuery(statement);
             
         }
         if(statType==1){
-            sqlStatement.executeUpdate(statment);
+            sqlStatement.executeUpdate(statement);
         }
     
     }
@@ -95,11 +94,11 @@ public class EChequeDB {
         try{
             connectToDataBase();
             //JOptionPane.showMessageDialog(null,"You are connected to e-Cheque Bank DB","DB State",JOptionPane.INFORMATION_MESSAGE);
-            createStatment();
-            //JOptionPane.showMessageDialog(null,"You have created statment","DB State",JOptionPane.INFORMATION_MESSAGE);
+            createStatement();
+            //JOptionPane.showMessageDialog(null,"You have created statement","DB State",JOptionPane.INFORMATION_MESSAGE);
                  
-            // run the specific sql statment
-            executeSQLStatment(databaseStat,databaseMode);
+            // run the specific sql statement
+            executeSQLStatement(databaseStat, databaseMode);
             flag = true;
         }
         catch(ClassNotFoundException exp){
@@ -128,11 +127,11 @@ public class EChequeDB {
         try{
             connectToDataBase();
             JOptionPane.showMessageDialog(null,"You are connected to e-Cheque Bank DB","DB State",JOptionPane.INFORMATION_MESSAGE);
-            createStatment();
-            JOptionPane.showMessageDialog(null,"You have created statment","DB State",JOptionPane.INFORMATION_MESSAGE);
+            createStatement();
+            JOptionPane.showMessageDialog(null,"You have created statement","DB State",JOptionPane.INFORMATION_MESSAGE);
                  
-            // run the specific sql statment
-            executeSQLStatment(databaseStat,databaseMode);
+            // run the specific sql statement
+            executeSQLStatement(databaseStat, databaseMode);
             if(resultSet.next()){
                 balance[0] = resultSet.getDouble(1);
                 flag = true;
@@ -169,11 +168,11 @@ public class EChequeDB {
         try{
             connectToDataBase();
             JOptionPane.showMessageDialog(null,"You are connected to e-Cheque Bank DB","DB State",JOptionPane.INFORMATION_MESSAGE);
-            createStatment();
-            JOptionPane.showMessageDialog(null,"You have created statment","DB State",JOptionPane.INFORMATION_MESSAGE);
+            createStatement();
+            JOptionPane.showMessageDialog(null,"You have created statement","DB State",JOptionPane.INFORMATION_MESSAGE);
                  
-            // run the specific sql statment
-            executeSQLStatment(databaseStat,databaseMode);
+            // run the specific sql statement
+            executeSQLStatement(databaseStat, databaseMode);
             if(resultSet.next()){
                  flag = true;
             }
