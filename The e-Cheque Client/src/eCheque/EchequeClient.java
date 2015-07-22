@@ -105,42 +105,39 @@ private void getSocketStream()throws Exception {
  }
 
 private void processConnection()throws IOException,Exception,ClassNotFoundException,
-    NoSuchAlgorithmException,NoSuchPaddingException {
-     
-    DigitalCertificate serverCerit;
-    boolean sessionDone = false;
-        
-        if(!sessionDone){
-             //exchange the Digital Ceritificates
-             SocketOutputObject.writeObject(clientCerit);
-             SocketOutputObject.flush();
-             
-             serverCerit = (DigitalCertificate)SocketInputObject.readObject();
-             
-             //send session key
-             Cipher cipher = Cipher.getInstance("RSA");
-             cipher.init(Cipher.WRAP_MODE, serverCerit.getpublicKey());
-             byte[] wrappedKey = cipher.wrap(sessionKey);
-             int keyLength = wrappedKey.length;
-             
-             SocketOutputObject.writeInt(keyLength);
-             SocketOutputObject.flush();
-             
-             SocketOutput.write(wrappedKey);
-             SocketOutput.flush();
-             
-             //send encrypted cheque.
-             FileInputStream cheqOut = new FileInputStream(chequePath);
-             byte[] buffer = new byte[1024];
-             int numread;
-             while((numread=cheqOut.read(buffer))>=0)
-             {
-                 SocketOutput.write(buffer, 0, numread);
-             }
-             cheqOut.close(); 
-      }
-      
-    getProcessConnection= true;
+NoSuchAlgorithmException,NoSuchPaddingException {
+
+	DigitalCertificate serverCerit;
+
+	//exchange the Digital Ceritificates
+	SocketOutputObject.writeObject(clientCerit);
+	SocketOutputObject.flush();
+
+	serverCerit = (DigitalCertificate)SocketInputObject.readObject();
+
+	//send session key
+	Cipher cipher = Cipher.getInstance("RSA");
+	cipher.init(Cipher.WRAP_MODE, serverCerit.getpublicKey());
+	byte[] wrappedKey = cipher.wrap(sessionKey);
+	int keyLength = wrappedKey.length;
+
+	SocketOutputObject.writeInt(keyLength);
+	SocketOutputObject.flush();
+
+	SocketOutput.write(wrappedKey);
+	SocketOutput.flush();
+
+	//send encrypted cheque.
+	FileInputStream cheqOut = new FileInputStream(chequePath);
+	byte[] buffer = new byte[1024];
+	int numread;
+	while((numread=cheqOut.read(buffer))>=0)
+	{
+		SocketOutput.write(buffer, 0, numread);
+	}
+	cheqOut.close(); 
+
+	getProcessConnection= true;
         
 }
 
