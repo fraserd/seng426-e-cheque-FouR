@@ -18,11 +18,11 @@ public class EChequeTest {
 
         String accountholder;
 
-        assertNull(cheque.getaccountholder());
+        assertNull(cheque.getAccountHolder());
 
         accountholder = "Parker Atkins";
-        cheque.setaccountholder(accountholder);
-        assertEquals(accountholder, cheque.getaccountholder());
+        cheque.setAccountHolder(accountholder);
+        assertEquals(accountholder, cheque.getAccountHolder());
     }
 
     @Test
@@ -30,11 +30,11 @@ public class EChequeTest {
 
         String accountNumber;
 
-        assertNull(cheque.getaccountNumber());
+        assertNull(cheque.getAccountNumber());
 
         accountNumber = "12345678";
-        cheque.setaccountNumber(accountNumber);
-        assertEquals(accountNumber, cheque.getaccountNumber());
+        cheque.setAccountNumber(accountNumber);
+        assertEquals(accountNumber, cheque.getAccountNumber());
     }
 
     @Test
@@ -42,11 +42,11 @@ public class EChequeTest {
 
         String bankname;
 
-        assertNull(cheque.getbankname());
+        assertNull(cheque.getBankName());
 
         bankname = "Barclays";
-        cheque.setbankname(bankname);
-        assertEquals(bankname, cheque.getbankname());
+        cheque.setBankName(bankname);
+        assertEquals(bankname, cheque.getBankName());
     }
 
     @Test
@@ -54,11 +54,11 @@ public class EChequeTest {
 
         String payToOrderOf;
 
-        assertNull(cheque.getpayToOrderOf());
+        assertNull(cheque.getPayToOrderOf());
 
         payToOrderOf = "Nobody";
-        cheque.setpayToOrderOf(payToOrderOf);
-        assertEquals(payToOrderOf, cheque.getpayToOrderOf());
+        cheque.setPayToOrderOf(payToOrderOf);
+        assertEquals(payToOrderOf, cheque.getPayToOrderOf());
     }
 
     @Test
@@ -66,11 +66,11 @@ public class EChequeTest {
 
         String money;
 
-        assertNull(cheque.getMoney());
+        assertNull(cheque.getAmountOfMoney());
 
         money = "$100";
-        cheque.setamountofMony(money);
-        assertEquals(money, cheque.getMoney());
+        cheque.setAmountOfMoney(money);
+        assertEquals(money, cheque.getAmountOfMoney());
     }
 
     @Test
@@ -78,65 +78,65 @@ public class EChequeTest {
 
         String currency;
 
-        assertNull(cheque.getcurrencytype());
+        assertNull(cheque.getCurrencyType());
 
         currency = "Euro";
-        cheque.setcurrencytype(currency);
-        assertEquals(currency, cheque.getcurrencytype());
+        cheque.setCurrencyType(currency);
+        assertEquals(currency, cheque.getCurrencyType());
     }
 
     @Test
     public void testSetAndGetchequeNumber() throws Exception {
         String chequeNumber;
 
-        assertNull(cheque.getchequeNumber());
+        assertNull(cheque.getChequeNumber());
 
         chequeNumber = "3";
-        cheque.setchequeNumber(chequeNumber);
-        assertEquals(chequeNumber, cheque.getchequeNumber());
+        cheque.setChequeNumber(chequeNumber);
+        assertEquals(chequeNumber, cheque.getChequeNumber());
     }
 
     @Test
     public void testSetAndGetguaranteed() throws Exception {
         boolean guaranteed;
 
-        assertFalse(cheque.getguaranteed());
+        assertFalse(cheque.getGuaranteed());
 
         guaranteed = true;
-        cheque.setguaranteed(guaranteed);
-        assertEquals(guaranteed, cheque.getguaranteed());
+        cheque.setGuaranteed(guaranteed);
+        assertEquals(guaranteed, cheque.getGuaranteed());
     }
 
     @Test
     public void testSetAndGetearnday() throws Exception {
         String earnday;
 
-        assertNull(cheque.getearnday());
+        assertNull(cheque.getEarnDay());
 
         earnday = "Monday";
-        cheque.setearnday(earnday);
-        assertEquals(earnday, cheque.getearnday());
+        cheque.setEarnDay(earnday);
+        assertEquals(earnday, cheque.getEarnDay());
     }
 
     @Test
     public void testSetAndGetbanksignature() throws Exception {
         byte[] banksignature;
 
-        assertNull(cheque.getbanksignature());
+        assertNull(cheque.getBankSignature());
 
         banksignature = new byte[] {1,2,3,4,5};
-        cheque.setbanksignature(banksignature);
-        assertEquals(banksignature, cheque.getbanksignature());
+        cheque.setBankSignature(banksignature);
+        assertEquals(banksignature, cheque.getBankSignature());
     }
 
     @Test
     public void testSetAndGetdrawersiganure() throws Exception {
         byte[] drawersignature;
 
-        assertNull(cheque.getdrawersiganure());
+        assertNull(cheque.getDrawerSignature());
 
         drawersignature = new byte[] {1,2,3,4,5};
-        cheque.setdrawersiganure(drawersignature);
-        assertEquals(drawersignature, cheque.getdrawersiganure());
+        cheque.setDrawerSignature(drawersignature);
+        assertEquals(drawersignature, cheque.getDrawerSignature());
     }
 }

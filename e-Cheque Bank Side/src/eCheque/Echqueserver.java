@@ -114,36 +114,36 @@ private OutputStream socketOutput;
      String depositAccount = (String)socketInputObject.readObject();
      
      //check the withdraw account. 
-     String withdrawStat = "Select balance from accounts where accountID ="+recivedCehq.getaccountNumber();     
+     String withdrawStat = "Select balance from accounts where accountID ="+recivedCehq.getAccountNumber();     
      String cheqUpdate="";
      double []balanceValue= new double [1];
      
      EChequeDB chqDB = new EChequeDB();
      if(chqDB.runDB(0,withdrawStat,balanceValue)){
          //check if the balance sufficient
-         double chequeMoney = Double.parseDouble(recivedCehq.getMoney());   
+         double chequeMoney = Double.parseDouble(recivedCehq.getAmountOfMoney());   
          if(chequeMoney<=balanceValue[0]){
              // cheque that the cheque is not canceld
-             withdrawStat = "Select * from cancelledCheque where accountID ='"+recivedCehq.getaccountNumber()+"'and chequeID ='"+recivedCehq.getchequeNumber()+"'";
+             withdrawStat = "Select * from cancelledCheque where accountID ='"+recivedCehq.getAccountNumber()+"'and chequeID ='"+recivedCehq.getChequeNumber()+"'";
              if(!chqDB.runDB(withdrawStat,0)){
-                withdrawStat = "Select * from eChequeOut where chequeID='"+recivedCehq.getchequeNumber()+"'and accountID='"+recivedCehq.getaccountNumber()+"'";
+                withdrawStat = "Select * from eChequeOut where chequeID='"+recivedCehq.getChequeNumber()+"'and accountID='"+recivedCehq.getAccountNumber()+"'";
                 if(!chqDB.runDB(withdrawStat,0)){
-                withdrawStat = "Update accounts set balance = balance -"+chequeMoney+"where accountID ="+recivedCehq.getaccountNumber();
+                withdrawStat = "Update accounts set balance = balance -"+chequeMoney+"where accountID ="+recivedCehq.getAccountNumber();
                 chqDB.runDB(1,withdrawStat);
                 withdrawStat =  "Update accounts set balance = balance +"+chequeMoney+"where accountID ="+depositAccount;
                 chqDB.runDB(1,withdrawStat);
                 
                  // update cheque out and in table
-                 cheqUpdate="Insert into eChequeOut(chequeID, accountID, balance) values("+"'"+recivedCehq.getchequeNumber()+
-                          "','"+recivedCehq.getaccountNumber()+"',"+chequeMoney+")";
+                 cheqUpdate="Insert into eChequeOut(chequeID, accountID, balance) values("+"'"+recivedCehq.getChequeNumber()+
+                          "','"+recivedCehq.getAccountNumber()+"',"+chequeMoney+")";
                  chqDB.runDB(1,cheqUpdate);
                 
-                 cheqUpdate="Insert into eChequeIN(chequeID, accountID, balance) values("+"'"+recivedCehq.getchequeNumber()+
-                          "','"+recivedCehq.getaccountNumber()+"',"+chequeMoney+")";
+                 cheqUpdate="Insert into eChequeIN(chequeID, accountID, balance) values("+"'"+recivedCehq.getChequeNumber()+
+                          "','"+recivedCehq.getAccountNumber()+"',"+chequeMoney+")";
                  chqDB.runDB(1,cheqUpdate);
                 
                 //report the deposit result
-                depositResult = "Your acoount recieves the deposit cheque\nyour balance incremented by"+recivedCehq.getMoney();
+                depositResult = "Your acoount recieves the deposit cheque\nyour balance incremented by"+recivedCehq.getAmountOfMoney();
                 }
                 else{
                     //report the deposit result
@@ -172,7 +172,7 @@ private OutputStream socketOutput;
          ECheque recivedCehq = (ECheque)socketInputObject.readObject();
          String cancelChequeStat;
          cancelChequeStat = "insert into cancelledCheque (accountID,chequeID) values('"
-                    +recivedCehq.getaccountNumber()+"','"+recivedCehq.getchequeNumber()+"')";
+                    +recivedCehq.getAccountNumber()+"','"+recivedCehq.getChequeNumber()+"')";
          EChequeDB chqDB = new EChequeDB();
          if(chqDB.runDB(1,cancelChequeStat)){
             socketOutputObject.writeObject("cheque canceld done");
@@ -226,8 +226,8 @@ private OutputStream socketOutput;
  private String ChequeReferenceString(ECheque chq){
         
         String ref="";
-        ref+= chq.getaccountNumber()+chq.getaccountholder()+chq.getbankname()+chq.getchequeNumber()+
-              chq.getMoney()+chq.getcurrencytype()+chq.getearnday()+chq.getguaranteed()+chq.getpayToOrderOf();
+        ref+= chq.getAccountNumber()+chq.getAccountHolder()+chq.getBankName()+chq.getChequeNumber()+
+              chq.getAmountOfMoney()+chq.getCurrencyType()+chq.getEarnDay()+chq.getGuaranteed()+chq.getPayToOrderOf();
        
         return ref;       
 }

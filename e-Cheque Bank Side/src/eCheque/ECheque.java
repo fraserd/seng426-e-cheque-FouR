@@ -18,17 +18,17 @@ import java.io.Serializable;
 //this class  for inter data cheque form user
 public class ECheque implements Serializable
 {
-     private String accountholder;
+     private String accountHolder;
      private String accountNumber;
-     private String bankname;
+     private String bankName;
      private String payToOrderOf ;
-     private String amountofMony;
-     private String currencytype;
+     private String amountOfMoney;
+     private String currencyType;
      private String chequeNumber;
      private boolean guaranteed;
-     private String earnday;
-     private byte[] banksignature;
-     private byte[] drawersiganure;
+     private String earnDay;
+     private byte[] bankSignature;
+     private byte[] drawerSignature;
      
      
      
@@ -40,121 +40,121 @@ public class ECheque implements Serializable
         
     }
     
-    public void setaccountholder(String x)
+    public void setAccountHolder(String x)
     {
-        accountholder = x;
+        accountHolder = x;
      
     }
-    public void setaccountNumber(String y)
+    public void setAccountNumber(String y)
     {
         accountNumber=y;
     }
     
     
-    public void setbankname(String z)
+    public void setBankName(String z)
     {
-        bankname=z;
+        bankName=z;
         
     }
   
-    public void setpayToOrderOf(String m)
+    public void setPayToOrderOf(String m)
     {
         payToOrderOf=m;
         
     }
     
-    public void setamountofMony(String s){
-        amountofMony = s;
+    public void setAmountOfMoney(String s){
+        amountOfMoney = s;
     }
     
-    public void setcurrencytype(String n)
+    public void setCurrencyType(String n)
     {
-        currencytype=n;
+        currencyType=n;
         
     }
-    public void setchequeNumber(String c)
+    public void setChequeNumber(String c)
     {
         chequeNumber=c;
     }
-    public void setguaranteed(boolean s)
+    public void setGuaranteed(boolean s)
     {
         guaranteed=s;
         
     }
-     public void setearnday(String u)
+    public void setEarnDay(String u)
     {
-        earnday= u;
+        earnDay= u;
      
     }
 
     
-    public void setbanksignature(byte[] y)
+    public void setBankSignature(byte[] y)
     {
-        banksignature = y;
+        bankSignature = y;
      
     } 
    
-     public void setdrawersiganure(byte[] y)
+   public void setDrawerSignature(byte[] y)
     {
-        drawersiganure = y;
+        drawerSignature = y;
      
     } 
       
      
      
      
-     //to extracting data we use get function;
-    public String getMoney()
+    //to extracting data we use get function;
+    public String getAmountOfMoney()
     {
-        return amountofMony;
+        return amountOfMoney;
     }
-    public String getaccountholder()
+    public String getAccountHolder()
     {
-        return accountholder;
+        return accountHolder;
     }
-    public String getaccountNumber()
+    public String getAccountNumber()
     {
        return accountNumber;
     }
-    public String getbankname()
+    public String getBankName()
     {
-         return bankname ;  
+         return bankName ;  
     }
         
-    public String getpayToOrderOf()
+    public String getPayToOrderOf()
     {
        return  payToOrderOf;   
     }
     
-    public String getcurrencytype()
+    public String getCurrencyType()
     {
-        return currencytype;   
+        return currencyType;   
     }
     
-    public String getchequeNumber()
+    public String getChequeNumber()
     {
         return chequeNumber;
     }
     
   
-    public boolean getguaranteed()
+    public boolean getGuaranteed()
     {
         
         return guaranteed ;
     }
-        public String getearnday()
+    public String getEarnDay()
     {
-        return  earnday;
+        return  earnDay;
     }
     
-     public byte[]  getbanksignature()
+     public byte[]  getBankSignature()
     {
-        return  banksignature;
+        return  bankSignature;
     }
     
-    public byte[]  getdrawersiganure()
+    public byte[]  getDrawerSignature()
     {
-        return  drawersiganure;
+        return  drawerSignature;
     }
    
 }

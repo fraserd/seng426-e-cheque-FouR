@@ -24,7 +24,7 @@ public class EChequeIOTest {
 
     @Before
     public void setUp() {
-        cheque.setaccountholder("Tester");
+        cheque.setAccountHolder("Tester");
 
         try{
             file.createNewFile();
@@ -44,7 +44,7 @@ public class EChequeIOTest {
         }
 
         chequeIO.savecheque(cheque, fileName);
-        assertEquals(cheque.getaccountholder(), chequeIO.readcheque(fileName).getaccountholder());
+        assertEquals(cheque.getAccountHolder(), chequeIO.readcheque(fileName).getAccountHolder());
     }
 
     @After

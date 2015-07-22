@@ -132,7 +132,7 @@ private PrivateKey privKey;
 	 recivedChq = readChq.readcheque(walletPath+"\\My Cheques\\"+cheqName+".sec");
 	 String chqSign = ChequeReferenceString(recivedChq);
 
-	 boolean verifySign = digitalSign.verifySignature(recivedChq.getdrawersiganure(),chqSign,clientCerit.getpublicKey());
+	 boolean verifySign = digitalSign.verifySignature(recivedChq.getDrawerSignature(),chqSign,clientCerit.getpublicKey());
 	 if(verifySign){
 		 JOptionPane.showMessageDialog(null,"The signature is vaild", "e-Cheque Clear",
 				 JOptionPane.INFORMATION_MESSAGE);
@@ -192,8 +192,8 @@ private PrivateKey privKey;
  private String ChequeReferenceString(ECheque chq){
         
         String ref="";
-        ref+= chq.getaccountNumber()+chq.getaccountholder()+chq.getbankname()+chq.getchequeNumber()+
-              chq.getMoney()+chq.getcurrencytype()+chq.getearnday()+chq.getguaranteed()+chq.getpayToOrderOf();
+        ref+= chq.getAccountNumber()+chq.getAccountHolder()+chq.getBankName()+chq.getChequeNumber()+
+              chq.getAmountOfMoney()+chq.getCurrencyType()+chq.getEarnDay()+chq.getGuaranteed()+chq.getPayToOrderOf();
        
         return ref;       
 }  
