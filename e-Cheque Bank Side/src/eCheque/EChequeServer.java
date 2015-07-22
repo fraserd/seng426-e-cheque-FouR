@@ -16,7 +16,7 @@ package eCheque;
 import java.net.*;
 import java.io.* ;
 
-public class Echqueserver implements Runnable{
+public class EChequeServer implements Runnable{
     
 /** Creates a new instance of Echqueserver */
 private ServerSocket server;
@@ -26,7 +26,7 @@ private ObjectOutputStream socketOutputObject;
 private InputStream socketInput;
 private OutputStream socketOutput;
 
- public Echqueserver(Socket socket){
+ public EChequeServer(Socket socket){
       ServerConnection = socket;
  }
 
