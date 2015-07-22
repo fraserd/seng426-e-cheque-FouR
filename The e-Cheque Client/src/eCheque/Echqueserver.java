@@ -129,7 +129,7 @@ private PrivateKey privKey;
 	 // load decrypted chequeObject.
 	 EChequeIO readChq = new EChequeIO();
 	 ECheque recivedChq = new ECheque();
-	 recivedChq = readChq.readcheque(walletPath+"\\My Cheques\\"+cheqName+".sec");
+	 recivedChq = readChq.readCheque(walletPath+"\\My Cheques\\"+cheqName+".sec");
 	 String chqSign = ChequeReferenceString(recivedChq);
 
 	 boolean verifySign = digitalSign.verifySignature(recivedChq.getDrawerSignature(),chqSign,clientCerit.getpublicKey());

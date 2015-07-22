@@ -36,15 +36,15 @@ public class EChequeIOTest {
     @Test
     public void testSaveAndReadcheque() throws Exception {
         try{
-            chequeIO.readcheque(fileDoesNotExist);
+            chequeIO.readCheque(fileDoesNotExist);
         }catch(FileNotFoundException e){
             //expected
         }catch(Exception e){
             fail("Should throw FileNotFoundException");
         }
 
-        chequeIO.savecheque(cheque, fileName);
-        assertEquals(cheque.getAccountHolder(), chequeIO.readcheque(fileName).getAccountHolder());
+        chequeIO.saveCheque(cheque, fileName);
+        assertEquals(cheque.getAccountHolder(), chequeIO.readCheque(fileName).getAccountHolder());
     }
 
     @After
