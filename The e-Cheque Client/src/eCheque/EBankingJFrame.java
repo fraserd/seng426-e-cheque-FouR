@@ -24,16 +24,6 @@ public class EBankingJFrame extends javax.swing.JFrame {
     private ECheque depositCheque;
     /** Creates new form EBankingJFrame */
     public EBankingJFrame(EChequeRegisteration registerdUser) {
-         try{
-            //TrendyLookAndFeel tlf = new TrendyLookAndFeel();
-            //tlf.setCurrentTheme( new com.Trendy.swing.plaf.Themes.TrendyOrangeTheme());
-            //UIManager.setLookAndFeel(tlf);
-        }
-        catch(Exception e){
-
-            //JOptionPane.showMessageDialog(null,"System Error", "can not found themes", JOptionPane.ERROR_MESSAGE);
-
-        }
         initComponents();
         registerData = registerdUser;
         selectChequeFlag = false;

@@ -35,22 +35,11 @@ public class ChequeJFrame extends javax.swing.JFrame {
     private String signPass;
     private ECheque oldCheque;
     
-    public ChequeJFrame(EChequeRegisteration registerUser) {
-        try{
-            //TrendyLookAndFeel tlf = new TrendyLookAndFeel();
-            //tlf.setCurrentTheme( new com.Trendy.swing.plaf.Themes.TrendyOrangeTheme());
-            //UIManager.setLookAndFeel(tlf);
-        }
-        catch(Exception e){
-            
-            //JOptionPane.showMessageDialog(null,"System Error", "can not found themes", JOptionPane.ERROR_MESSAGE);
-        
-        }    
-        initComponents();
-        eChequeReg = registerUser;
-       // set new cheque status false;
-       newChequeFlag = false;
-
+    public ChequeJFrame(EChequeRegisteration registerUser) {    
+    	initComponents();
+    	eChequeReg = registerUser;
+    	// set new cheque status false;
+    	newChequeFlag = false;
     }
     
     /** This method is called from within the constructor to

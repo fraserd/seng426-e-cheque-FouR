@@ -34,17 +34,7 @@ public class SendChequeJFrame extends javax.swing.JFrame {
     private EChequeRegisteration eChequeRegisterdUser; 
     
     /** Creates new form SendChequeJFrame */
-    public SendChequeJFrame(EChequeRegisteration registerdUser) {
-        try{
-            //TrendyLookAndFeel tlf = new TrendyLookAndFeel();
-            //tlf.setCurrentTheme( new com.Trendy.swing.plaf.Themes.TrendyOrangeTheme());
-            //UIManager.setLookAndFeel(tlf);
-        }
-        catch(Exception e){
-            
-            //JOptionPane.showMessageDialog(null,"System Error", "can not found themes", JOptionPane.ERROR_MESSAGE);
-        
-        }    
+    public SendChequeJFrame(EChequeRegisteration registerdUser) {   
         initComponents();
         eChequeRegisterdUser = registerdUser;
     }

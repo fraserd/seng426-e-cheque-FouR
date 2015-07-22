@@ -32,17 +32,6 @@ public class RegistrationJFrame extends javax.swing.JFrame {
  
    /** Creates new form RegistrationFrame */
    public RegistrationJFrame() {
-        try{
-            //TrendyLookAndFeel tlf = new TrendyLookAndFeel();
-            //tlf.setCurrentTheme( new com.Trendy.swing.plaf.Themes.TrendyOrangeTheme());
-            //UIManager.setLookAndFeel(tlf);
-        }
-        catch(Exception e){
-            
-            //JOptionPane.showMessageDialog(null,"System Error", "can not found themes", JOptionPane.ERROR_MESSAGE);
-        
-        }
-        
         pathFlag = false;
         initComponents();
     }

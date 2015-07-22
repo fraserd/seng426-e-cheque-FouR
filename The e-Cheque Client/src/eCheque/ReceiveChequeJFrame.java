@@ -28,18 +28,7 @@ public class ReceiveChequeJFrame extends javax.swing.JFrame {
      private boolean serverStartFlage;
      
     /** Creates new form ReceiveChequeJFrame */
-    public ReceiveChequeJFrame(EChequeRegisteration eChqReg, PrivateKey pKey) {
-        
-        try{
-            //TrendyLookAndFeel tlf = new TrendyLookAndFeel();
-            //tlf.setCurrentTheme( new com.Trendy.swing.plaf.Themes.TrendyOrangeTheme());
-            //UIManager.setLookAndFeel(tlf);
-        }
-        catch(Exception e){
-            
-            //JOptionPane.showMessageDialog(null,"System Error", "can not found themes", JOptionPane.ERROR_MESSAGE);
-        
-        }    
+    public ReceiveChequeJFrame(EChequeRegisteration eChqReg, PrivateKey pKey) {    
         initComponents();
         eChequeReg = eChqReg;
         privKey = pKey;
