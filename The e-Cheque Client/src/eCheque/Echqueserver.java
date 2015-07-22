@@ -95,11 +95,11 @@ private PrivateKey privKey;
 	 //
 	 Calendar currTime = new GregorianCalendar();
 	 String cheqName ="";
-	 cheqName += currTime.get(currTime.YEAR);
-	 cheqName += currTime.get(currTime.MONTH);
-	 cheqName += currTime.get(currTime.DAY_OF_MONTH);
-	 cheqName += currTime.get(currTime.HOUR_OF_DAY);
-	 cheqName += currTime.get(currTime.MILLISECOND);
+	 cheqName += currTime.get(Calendar.YEAR);
+	 cheqName += currTime.get(Calendar.MONTH);
+	 cheqName += currTime.get(Calendar.DAY_OF_MONTH);
+	 cheqName += currTime.get(Calendar.HOUR_OF_DAY);
+	 cheqName += currTime.get(Calendar.MILLISECOND);
 
 	 //read the cheque from the socket
 	 FileOutputStream chqIn = new FileOutputStream(walletPath+"\\In Coming\\"+cheqName+".cry");

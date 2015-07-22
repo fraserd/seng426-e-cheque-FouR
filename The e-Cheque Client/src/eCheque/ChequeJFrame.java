@@ -16,13 +16,19 @@ package eCheque;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.ObjectInputStream;
+import java.util.Calendar;
 import java.util.GregorianCalendar;
+
 import javax.swing.JOptionPane;
+
 import java.security.*;
+
 import javax.crypto.Cipher;
+
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.File;
+
 import javax.swing.JFileChooser;
 
 
@@ -763,13 +769,13 @@ public class ChequeJFrame extends javax.swing.JFrame {
         String serialNumber=""; 
         GregorianCalendar calender = new GregorianCalendar();
         
-        serialNumber += calender.get(calender.DAY_OF_MONTH);
-        serialNumber += calender.get(calender.MONTH);
-        serialNumber += calender.get(calender.YEAR)+"  ";
-        serialNumber += calender.get(calender.HOUR_OF_DAY);
-        serialNumber += calender.get(calender.MINUTE)+" ";
-        serialNumber += calender.get(calender.SECOND);
-        serialNumber += calender.get(calender.MILLISECOND);
+        serialNumber += calender.get(Calendar.DAY_OF_MONTH);
+        serialNumber += calender.get(Calendar.MONTH);
+        serialNumber += calender.get(Calendar.YEAR)+"  ";
+        serialNumber += calender.get(Calendar.HOUR_OF_DAY);
+        serialNumber += calender.get(Calendar.MINUTE)+" ";
+        serialNumber += calender.get(Calendar.SECOND);
+        serialNumber += calender.get(Calendar.MILLISECOND);
         
         return serialNumber;        
     }
@@ -778,9 +784,9 @@ public class ChequeJFrame extends javax.swing.JFrame {
         String currentDateInfo=""; 
         GregorianCalendar calender = new GregorianCalendar();
         
-        currentDateInfo += calender.get(calender.DAY_OF_MONTH)+" - ";
-        currentDateInfo += calender.get(calender.MONTH)+ 1 + " - ";
-        currentDateInfo += calender.get(calender.YEAR);
+        currentDateInfo += calender.get(Calendar.DAY_OF_MONTH)+" - ";
+        currentDateInfo += calender.get(Calendar.MONTH)+ 1 + " - ";
+        currentDateInfo += calender.get(Calendar.YEAR);
         
         return currentDateInfo;
     }
