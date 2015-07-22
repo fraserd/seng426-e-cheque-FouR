@@ -27,8 +27,7 @@ public class Digitalsigneture
          Signature signmessage = Signature.getInstance("SHA1withRSA");
          signmessage.initSign(privKey);
          signmessage.update(message.getBytes());
-         byte[]signature = signmessage.sign();
-         return signature;
+         return signmessage.sign();
                 
     }
     //this function use to verifay sign  to cheque data by  RSA algorthem 
