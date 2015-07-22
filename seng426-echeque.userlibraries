@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="mysql-connector-java-5.1.15-bin">
+    <archive path="C:/Users/illdred/Documents/Projects/seng426-e-cheque-FouR/e-Cheque Bank Side/dist/lib/mysql-connector-java-5.1.15-bin.jar" />
+  </library>
+  <library name="swing-layout-1.0.41">
+    <archive path="C:/Users/illdred/Documents/Projects/seng426-e-cheque-FouR/The e-Cheque Client/dist/lib/swing-layout-1.0.4.jar" />
+  </library>
+  <library name="swing-layout-1.0.4">
+    <archive path="C:/Users/illdred/Documents/Projects/seng426-e-cheque-FouR/e-Cheque Bank Side/dist/lib/swing-layout-1.0.4.jar" />
+  </library>
+  <library name="actionmailer (v4.1.1, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionmailer-4.1.1/lib" />
+  </library>
+  <library name="actionpack (v4.1.1, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionpack-4.1.1/lib" />
+  </library>
+  <library name="actionview (v4.1.1, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/actionview-4.1.1/lib" />
+  </library>
+  <library name="activemodel (v4.1.1, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/activemodel-4.1.1/lib" />
+  </library>
+  <library name="activerecord (v4.1.1, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/activerecord-4.1.1/lib" />
+  </library>
+  <library name="activesupport (v4.1.1, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/activesupport-4.1.1/lib" />
+  </library>
+  <library name="angular">
+    <archive path="C:/Users/illdred/.IntelliJIdea14/system/extLibs/http_ajax.googleapis.com_ajax_libs_angularjs_1.3.8_angular.js" />
+  </library>
+  <library name="angular-animate">
+    <archive path="C:/Users/illdred/.IntelliJIdea14/system/extLibs/http_ajax.googleapis.com_ajax_libs_angularjs_1.3.8_angular-animate.js" />
+  </library>
+  <library name="angular-route">
+    <archive path="C:/Users/illdred/.IntelliJIdea14/system/extLibs/http_ajax.googleapis.com_ajax_libs_angularjs_1.3.8_angular-route.js" />
+  </library>
+  <library name="ansi (v1.4.3, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/ansi-1.4.3/lib" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/ansi-1.4.3/demo" />
+  </library>
+  <library name="archive-tar-minitar (v0.5.2, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/archive-tar-minitar-0.5.2/bin" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/archive-tar-minitar-0.5.2/lib" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/archive-tar-minitar-0.5.2/tests" />
+  </library>
+  <library name="arel (v5.0.1.20140414130214, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/arel-5.0.1.20140414130214/lib" />
+  </library>
+  <library name="bcrypt (v3.1.7, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/.IntelliJIdea14/config/rubystubs/ruby20/bcrypt/3.1.7" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bcrypt-3.1.7-x64-mingw32/ext" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bcrypt-3.1.7-x64-mingw32/lib" />
+  </library>
+  <library name="bigdecimal (v1.2.0, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/dl" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/io" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/cgi" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/drb" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/irb" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/net" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rss" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/uri" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/date" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/json" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/racc" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rake" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rdoc" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/yaml" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/psych" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rexml" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rinda" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/shell" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/win32" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/digest" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/fiddle" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/matrix" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/ripper" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/xmlrpc" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/openssl" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/webrick" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/minitest" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/optparse" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rbconfig" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rubygems" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/win32ole" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/bigdecimal" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/x64-mingw32" />
+  </library>
+  <library name="bootstrap">
+    <archive path="C:/Users/illdred/.IntelliJIdea14/system/extLibs/http_maxcdn.bootstrapcdn.com_bootstrap_3.3.4_js_bootstrap.js" />
+    <archive path="C:/Users/illdred/.IntelliJIdea14/system/extLibs/http_maxcdn.bootstrapcdn.com_bootstrap_3.3.2_js_bootstrap.js" />
+  </library>
+  <library name="bootstrap-sass (v2.3.2.0, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bootstrap-sass-2.3.2.0/lib" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bootstrap-sass-2.3.2.0/vendor" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bootstrap-sass-2.3.2.0/templates" />
+  </library>
+  <library name="bootstrap-will_paginate (v0.0.9, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bootstrap-will_paginate-0.0.9/lib" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bootstrap-will_paginate-0.0.9/config" />
+  </library>
+  <library name="builder (v3.2.2, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/builder-3.2.2/lib" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/builder-3.2.2/rakelib" />
+  </library>
+  <library name="bundler (v1.6.2, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.6.2/bin" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.6.2/lib" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/bundler-1.6.2/man" />
+  </library>
+  <library name="coffee-rails (v4.0.1, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/coffee-rails-4.0.1/lib" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/coffee-rails-4.0.1/gemfiles" />
+  </library>
+  <library name="coffee-script (v2.2.0, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/coffee-script-2.2.0/lib" />
+  </library>
+  <library name="coffee-script (v2.3.0, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/coffee-script-2.3.0/lib" />
+  </library>
+  <library name="coffee-script-source (v1.7.0, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/coffee-script-source-1.7.0/lib" />
+  </library>
+  <library name="coffee-script-source (v1.7.1, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/coffee-script-source-1.7.1/lib" />
+  </library>
+  <library name="commander (v4.3.0, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/commander-4.3.0/bin" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/commander-4.3.0/lib" />
+  </library>
+  <library name="debase (v0.0.3, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/debase-0.0.3/ext" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/debase-0.0.3/lib" />
+  </library>
+  <library name="devise (v3.2.4, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/devise-3.2.4/app" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/devise-3.2.4/lib" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/devise-3.2.4/config" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/devise-3.2.4/gemfiles" />
+  </library>
+  <library name="erubis (v2.7.0, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/erubis-2.7.0/bin" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/erubis-2.7.0/lib" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/erubis-2.7.0/contrib" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/erubis-2.7.0/doc-api" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/erubis-2.7.0/benchmark" />
+  </library>
+  <library name="execjs (v2.0.2, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/execjs-2.0.2/lib" />
+  </library>
+  <library name="execjs (v2.2.1, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/execjs-2.2.1/lib" />
+  </library>
+  <library name="faker (v1.1.2, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/faker-1.1.2/lib" />
+  </library>
+  <library name="groovy-all-2.2.2">
+    <archive path="C:/Users/illdred/Documents/Projects/libraries/groovy-2.2.2/embeddable/groovy-all-2.2.2.jar" />
+  </library>
+  <library name="highline (v1.6.21, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/highline-1.6.21/lib" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/highline-1.6.21/site" />
+  </library>
+  <library name="hike (v1.2.3, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/hike-1.2.3/lib" />
+  </library>
+  <library name="httpclient (v2.6.0.1, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/httpclient-2.6.0.1/bin" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/httpclient-2.6.0.1/lib" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/httpclient-2.6.0.1/sample" />
+  </library>
+  <library name="i18n (v0.6.11, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/i18n-0.6.11/lib" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/i18n-0.6.11/gemfiles" />
+  </library>
+  <library name="i18n (v0.6.9, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/i18n-0.6.9/ci" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/i18n-0.6.9/lib" />
+  </library>
+  <library name="io-console (v0.4.2, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/dl" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/io" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/cgi" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/drb" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/irb" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/net" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rss" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/uri" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/date" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/json" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/racc" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rake" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rdoc" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/yaml" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/psych" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rexml" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rinda" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/shell" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/win32" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/digest" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/fiddle" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/matrix" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/ripper" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/xmlrpc" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/openssl" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/webrick" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/minitest" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/optparse" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rbconfig" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rubygems" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/win32ole" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/bigdecimal" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/x64-mingw32" />
+  </library>
+  <library name="jbuilder (v2.0.7, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/jbuilder-2.0.7/lib" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/jbuilder-2.0.7/gemfiles" />
+  </library>
+  <library name="jbuilder (v2.1.1, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/jbuilder-2.1.1/lib" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/jbuilder-2.1.1/gemfiles" />
+  </library>
+  <library name="jbuilder (v2.1.2, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/jbuilder-2.1.2/lib" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/jbuilder-2.1.2/gemfiles" />
+  </library>
+  <library name="jquery">
+    <archive path="C:/Users/illdred/.IntelliJIdea14/system/extLibs/http_ajax.googleapis.com_ajax_libs_jquery_1.11.2_jquery.js" />
+  </library>
+  <library name="jQuery-2.0.0">
+    <archive path="C:/Users/illdred/.IntelliJIdea12/system/extLibs/http_code.jquery.com_jquery-2.0.0.js" />
+  </library>
+  <library name="jquery-rails (v3.0.4, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/jquery-rails-3.0.4/lib" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/jquery-rails-3.0.4/vendor" />
+  </library>
+  <library name="jquery-rails (v3.1.1, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/jquery-rails-3.1.1/lib" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/jquery-rails-3.1.1/vendor" />
+  </library>
+  <library name="json (v1.7.7, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/dl" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/io" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/cgi" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/drb" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/irb" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/net" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rss" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/uri" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/date" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/json" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/racc" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rake" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rdoc" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/yaml" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/psych" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rexml" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rinda" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/shell" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/win32" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/digest" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/fiddle" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/matrix" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/ripper" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/xmlrpc" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/openssl" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/webrick" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/minitest" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/optparse" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rbconfig" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rubygems" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/win32ole" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/bigdecimal" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/x64-mingw32" />
+  </library>
+  <library name="json (v1.8.1, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/.IntelliJIdea14/config/rubystubs/ruby20/json/1.8.1" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/json-1.8.1/ext" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/json-1.8.1/lib" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/json-1.8.1/data" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/json-1.8.1/java" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/json-1.8.1/tests" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/json-1.8.1/tools" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/json-1.8.1/diagrams" />
+  </library>
+  <library name="junit">
+    <archive path="C:/Users/illdred/Documents/Projects/libraries/junit/junit-4.12.jar" />
+    <archive path="C:/Users/illdred/Documents/Projects/libraries/junit/hamcrest-core-1.3.jar" />
+    <archive path="C:/Users/illdred/Documents/Projects/libraries/junit/junit-4.12-javadoc.jar" />
+    <archive path="C:/Users/illdred/Documents/Projects/libraries/junit/hamcrest-core-1.3-javadoc.jar" />
+  </library>
+  <library name="mail (v2.5.4, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/mail-2.5.4/lib" />
+  </library>
+  <library name="mime-types (v1.25.1, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/mime-types-1.25.1/lib" />
+  </library>
+  <library name="minitest (v4.3.2, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/dl" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/io" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/cgi" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/drb" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/irb" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/net" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rss" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/uri" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/date" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/json" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/racc" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rake" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rdoc" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/yaml" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/psych" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rexml" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rinda" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/shell" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/win32" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/digest" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/fiddle" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/matrix" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/ripper" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/xmlrpc" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/openssl" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/webrick" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/minitest" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/optparse" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rbconfig" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rubygems" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/win32ole" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/bigdecimal" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/x64-mingw32" />
+  </library>
+  <library name="minitest (v5.3.4, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/minitest-5.3.4/lib" />
+  </library>
+  <library name="minitest (v5.3.5, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/minitest-5.3.5/lib" />
+  </library>
+  <library name="minitest (v5.4.0, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/minitest-5.4.0/lib" />
+  </library>
+  <library name="minitest-reporters (v1.0.5, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/minitest-reporters-1.0.5/lib" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/minitest-reporters-1.0.5/assets" />
+  </library>
+  <library name="multi_json (v1.10.1, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/multi_json-1.10.1/lib" />
+  </library>
+  <library name="mysql2 (v0.3.16, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/mysql2-0.3.16/ext" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/mysql2-0.3.16/lib" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/mysql2-0.3.16/support" />
+  </library>
+  <library name="net-scp (v1.2.1, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/net-scp-1.2.1/lib" />
+  </library>
+  <library name="net-ssh (v2.9.2, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/net-ssh-2.9.2/lib" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/net-ssh-2.9.2/support" />
+  </library>
+  <library name="net-ssh-gateway (v1.2.0, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/net-ssh-gateway-1.2.0/lib" />
+  </library>
+  <library name="net-ssh-multi (v1.2.0, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/net-ssh-multi-1.2.0/lib" />
+  </library>
+  <library name="Node.js v0.10.32 Core Modules">
+    <archive path="C:/Users/illdred/.IntelliJIdea14/system/extLibs/nodejs-v0.10.32-src/core-modules-sources/lib/punycode.js" />
+    <archive path="C:/Users/illdred/.IntelliJIdea14/system/extLibs/nodejs-v0.10.32-src/core-modules-sources/lib/path.js" />
+    <archive path="C:/Users/illdred/.IntelliJIdea14/system/extLibs/nodejs-v0.10.32-src/core-modules-sources/lib/os.js" />
+    <archive path="C:/Users/illdred/.IntelliJIdea14/system/extLibs/nodejs-v0.10.32-src/core-modules-sources/lib/tty.js" />
+    <archive path="C:/Users/illdred/.IntelliJIdea14/system/extLibs/nodejs-v0.10.32-src/core-modules-sources/lib/net.js" />
+    <archive path="C:/Users/illdred/.IntelliJIdea14/system/extLibs/nodejs-v0.10.32-src/core-modules-sources/lib/tls.js" />
+    <archive path="C:/Users/illdred/.IntelliJIdea14/system/extLibs/nodejs-v0.10.32-src/core-modules-sources/lib/module.js" />
+    <archive path="C:/Users/illdred/.IntelliJIdea14/system/extLibs/nodejs-v0.10.32-src/core-modules-sources/lib/https.js" />
+    <archive path="C:/Users/illdred/.IntelliJIdea14/system/extLibs/nodejs-v0.10.32-src/core-modules-sources/lib/http.js" />
+    <archive path="C:/Users/illdred/.IntelliJIdea14/system/extLibs/nodejs-v0.10.32-src/core-modules-sources/lib/_stream_writable.js" />
+    <archive path="C:/Users/illdred/.IntelliJIdea14/system/extLibs/nodejs-v0.10.32-src/core-modules-sources/lib/fs.js" />
+    <archive path="C:/Users/illdred/.IntelliJIdea14/system/extLibs/nodejs-v0.10.32-src/core-modules-sources/lib/freelist.js" />
+    <archive path="C:/Users/illdred/.IntelliJIdea14/system/extLibs/nodejs-v0.10.32-src/core-modules-sources/lib/_stream_passthrough.js" />
+    <archive path="C:/Users/illdred/.IntelliJIdea14/system/extLibs/nodejs-v0.10.32-src/core-modules-sources/lib/events.js" />
+    <archive path="C:/Users/illdred/.IntelliJIdea14/system/extLibs/nodejs-v0.10.32-src/core-modules-sources/lib/domain.js" />
+    <archive path="C:/Users/illdred/.IntelliJIdea14/system/extLibs/nodejs-v0.10.32-src/core-modules-sources/lib/timers.js" />
+    <archive path="C:/Users/illdred/.IntelliJIdea14/system/extLibs/nodejs-v0.10.32-src/core-modules-sources/lib/_stream_transform.js" />
+    <archive path="C:/Users/illdred/.IntelliJIdea14/system/extLibs/nodejs-v0.10.32-src/core-modules-sources/lib/sys.js" />
+    <archive path="C:/Users/illdred/.IntelliJIdea14/system/extLibs/nodejs-v0.10.32-src/core-modules-sources/lib/_stream_readable.js" />
+    <archive path="C:/Users/illdred/.IntelliJIdea14/system/extLibs/nodejs-v0.10.32-src/core-modules-sources/lib/string_decoder.js" />
+    <archive path="C:/Users/illdred/.IntelliJIdea14/system/extLibs/nodejs-v0.10.32-src/core-modules-sources/lib/stream.js" />
+    <archive path="C:/Users/illdred/.IntelliJIdea14/system/extLibs/nodejs-v0.10.32-src/core-modules-sources/lib/_stream_duplex.js" />
+    <archive path="C:/Users/illdred/.IntelliJIdea14/system/extLibs/nodejs-v0.10.32-src/core-modules-sources/lib/_linklist.js" />
+    <archive path="C:/Users/illdred/.IntelliJIdea14/system/extLibs/nodejs-v0.10.32-src/core-modules-sources/lib/_debugger.js" />
+    <archive path="C:/Users/illdred/.IntelliJIdea14/system/extLibs/nodejs-v0.10.32-src/core-modules-sources/lib/dgram.js" />
+    <archive path="C:/Users/illdred/.IntelliJIdea14/system/extLibs/nodejs-v0.10.32-src/core-modules-sources/lib/crypto.js" />
+    <archive path="C:/Users/illdred/.IntelliJIdea14/system/extLibs/nodejs-v0.10.32-src/core-modules-sources/lib/constants.js" />
+    <archive path="C:/Users/illdred/.IntelliJIdea14/system/extLibs/nodejs-v0.10.32-src/core-modules-sources/lib/console.js" />
+    <archive path="C:/Users/illdred/.IntelliJIdea14/system/extLibs/nodejs-v0.10.32-src/core-modules-sources/lib/cluster.js" />
+    <archive path="C:/Users/illdred/.IntelliJIdea14/system/extLibs/nodejs-v0.10.32-src/core-modules-sources/lib/buffer.js" />
+    <archive path="C:/Users/illdred/.IntelliJIdea14/system/extLibs/nodejs-v0.10.32-src/core-modules-sources/lib/child_process.js" />
+    <archive path="C:/Users/illdred/.IntelliJIdea14/system/extLibs/nodejs-v0.10.32-src/core-modules-sources/lib/assert.js" />
+    <archive path="C:/Users/illdred/.IntelliJIdea14/system/extLibs/nodejs-v0.10.32-src/core-modules-sources/lib/dns.js" />
+    <archive path="C:/Users/illdred/.IntelliJIdea14/system/extLibs/nodejs-v0.10.32-src/core-modules-sources/lib/zlib.js" />
+    <archive path="C:/Users/illdred/.IntelliJIdea14/system/extLibs/nodejs-v0.10.32-src/core-modules-sources/lib/vm.js" />
+    <archive path="C:/Users/illdred/.IntelliJIdea14/system/extLibs/nodejs-v0.10.32-src/core-modules-sources/lib/util.js" />
+    <archive path="C:/Users/illdred/.IntelliJIdea14/system/extLibs/nodejs-v0.10.32-src/core-modules-sources/lib/url.js" />
+    <archive path="C:/Users/illdred/.IntelliJIdea14/system/extLibs/nodejs-v0.10.32-src/core-modules-sources/lib/repl.js" />
+    <archive path="C:/Users/illdred/.IntelliJIdea14/system/extLibs/nodejs-v0.10.32-src/core-modules-sources/lib/readline.js" />
+    <archive path="C:/Users/illdred/.IntelliJIdea14/system/extLibs/nodejs-v0.10.32-src/core-modules-sources/lib/querystring.js" />
+  </library>
+  <library name="open4 (v1.3.4, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/open4-1.3.4/lib" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/open4-1.3.4/samples" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/open4-1.3.4/white_box" />
+  </library>
+  <library name="orm_adapter (v0.5.0, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/orm_adapter-0.5.0/lib" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/orm_adapter-0.5.0/gemfiles" />
+  </library>
+  <library name="paper_trail (v3.0.3, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/paper_trail-3.0.3/lib" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/paper_trail-3.0.3/gemfiles" />
+  </library>
+  <library name="pg (v0.15.1, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/.IntelliJIdea14/config/rubystubs/ruby20/pg/0.15.1" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/pg-0.15.1-x64-mingw32/ext" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/pg-0.15.1-x64-mingw32/lib" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/pg-0.15.1-x64-mingw32/sample" />
+  </library>
+  <library name="polyglot (v0.3.4, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/polyglot-0.3.4/lib" />
+  </library>
+  <library name="polyglot (v0.3.5, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/polyglot-0.3.5/lib" />
+  </library>
+  <library name="psych (v2.0.0, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/dl" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/io" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/cgi" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/drb" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/irb" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/net" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rss" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/uri" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/date" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/json" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/racc" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rake" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rdoc" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/yaml" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/psych" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rexml" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rinda" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/shell" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/win32" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/digest" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/fiddle" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/matrix" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/ripper" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/xmlrpc" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/openssl" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/webrick" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/minitest" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/optparse" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rbconfig" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rubygems" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/win32ole" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/bigdecimal" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/x64-mingw32" />
+  </library>
+  <library name="Python 2.7.9 (C:\Python27\python.exe) interpreter library">
+    <archive path="C:/Python27/DLLs" />
+    <archive path="C:/Python27/Lib" />
+    <archive path="C:/Python27/Lib/lib-tk" />
+    <archive path="C:/Python27" />
+    <archive path="C:/Python27/Lib/site-packages" />
+    <archive path="C:/Users/illdred/.IntelliJIdea14/system/python_stubs/-762174762" />
+  </library>
+  <library name="rack (v1.5.2, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/rack-1.5.2/bin" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/rack-1.5.2/lib" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/rack-1.5.2/contrib" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/rack-1.5.2/example" />
+  </library>
+  <library name="rack-test (v0.6.2, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/rack-test-0.6.2/lib" />
+  </library>
+  <library name="rails (v4.1.1, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/rails-4.1.1/guides" />
+  </library>
+  <library name="rails_12factor (v0.0.2, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/rails_12factor-0.0.2/lib" />
+  </library>
+  <library name="rails_serve_static_assets (v0.0.2, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/rails_serve_static_assets-0.0.2/lib" />
+  </library>
+  <library name="rails_stdout_logging (v0.0.3, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/rails_stdout_logging-0.0.3/lib" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/rails_stdout_logging-0.0.3/gemfiles" />
+  </library>
+  <library name="railties (v4.1.1, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/railties-4.1.1/bin" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/railties-4.1.1/lib" />
+  </library>
+  <library name="rake (v0.9.6, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/dl" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/io" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/cgi" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/drb" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/irb" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/net" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rss" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/uri" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/date" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/json" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/racc" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rake" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rdoc" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/yaml" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/psych" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rexml" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rinda" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/shell" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/win32" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/digest" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/fiddle" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/matrix" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/ripper" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/xmlrpc" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/openssl" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/webrick" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/minitest" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/optparse" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rbconfig" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rubygems" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/win32ole" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/bigdecimal" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/x64-mingw32" />
+  </library>
+  <library name="rake (v10.3.2, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/rake-10.3.2/bin" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/rake-10.3.2/lib" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/rake-10.3.2/rakelib" />
+  </library>
+  <library name="rdoc (v4.0.0, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/dl" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/io" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/cgi" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/drb" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/irb" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/net" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rss" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/uri" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/date" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/json" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/racc" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rake" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rdoc" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/yaml" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/psych" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rexml" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rinda" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/shell" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/win32" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/digest" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/fiddle" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/matrix" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/ripper" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/xmlrpc" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/openssl" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/webrick" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/minitest" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/optparse" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rbconfig" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rubygems" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/win32ole" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/bigdecimal" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/x64-mingw32" />
+  </library>
+  <library name="rdoc (v4.1.1, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/rdoc-4.1.1/bin" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/rdoc-4.1.1/lib" />
+  </library>
+  <library name="rhc (v1.35.1, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/rhc-1.35.1/bin" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/rhc-1.35.1/lib" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/rhc-1.35.1/conf" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/rhc-1.35.1/autocomplete" />
+  </library>
+  <library name="ruby-debug-ide (v0.4.17, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/ruby-debug-ide-0.4.17/bin" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/ruby-debug-ide-0.4.17/ext" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/ruby-debug-ide-0.4.17/lib" />
+  </library>
+  <library name="ruby-progressbar (v1.5.1, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/ruby-progressbar-1.5.1/lib" />
+  </library>
+  <library name="sass (v3.2.19, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.19/bin" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.19/lib" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.19/extra" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.19/rails" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.19/vendor" />
+  </library>
+  <library name="sass-rails (v4.0.3, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-rails-4.0.3/lib" />
+  </library>
+  <library name="sdoc (v0.4.0, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sdoc-0.4.0/bin" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sdoc-0.4.0/lib" />
+  </library>
+  <library name="sprockets (v2.11.0, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sprockets-2.11.0/bin" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sprockets-2.11.0/lib" />
+  </library>
+  <library name="sprockets-rails (v2.1.3, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sprockets-rails-2.1.3/lib" />
+  </library>
+  <library name="sqlite3 (v1.3.8, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/.IntelliJIdea14/config/rubystubs/ruby20/sqlite3/1.3.8" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sqlite3-1.3.8-x64-mingw32/ext" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sqlite3-1.3.8-x64-mingw32/faq" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sqlite3-1.3.8-x64-mingw32/lib" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sqlite3-1.3.8-x64-mingw32/tasks" />
+  </library>
+  <library name="sqlite3 (v1.3.9, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sqlite3-1.3.9-x64-mingw32/ext" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sqlite3-1.3.9-x64-mingw32/faq" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sqlite3-1.3.9-x64-mingw32/lib" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sqlite3-1.3.9-x64-mingw32/tasks" />
+  </library>
+  <library name="test-unit (v2.0.0.0, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/dl" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/io" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/cgi" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/drb" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/irb" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/net" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rss" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/uri" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/date" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/json" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/racc" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rake" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rdoc" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/yaml" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/psych" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rexml" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rinda" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/shell" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/win32" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/digest" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/fiddle" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/matrix" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/ripper" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/xmlrpc" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/openssl" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/webrick" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/minitest" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/optparse" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rbconfig" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/rubygems" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/win32ole" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/bigdecimal" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/2.0.0/x64-mingw32" />
+  </library>
+  <library name="thor (v0.19.1, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/thor-0.19.1/bin" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/thor-0.19.1/lib" />
+  </library>
+  <library name="thread_safe (v0.3.3, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/thread_safe-0.3.3/ext" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/thread_safe-0.3.3/lib" />
+  </library>
+  <library name="thread_safe (v0.3.4, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/thread_safe-0.3.4/ext" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/thread_safe-0.3.4/lib" />
+  </library>
+  <library name="tilt (v1.4.1, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/tilt-1.4.1/bin" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/tilt-1.4.1/lib" />
+  </library>
+  <library name="treetop (v1.4.15, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/treetop-1.4.15/bin" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/treetop-1.4.15/lib" />
+  </library>
+  <library name="turbolinks (v2.2.2, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/turbolinks-2.2.2/lib" />
+  </library>
+  <library name="tzinfo (v1.1.0, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/tzinfo-1.1.0/lib" />
+  </library>
+  <library name="tzinfo (v1.2.0, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/tzinfo-1.2.0/lib" />
+  </library>
+  <library name="tzinfo (v1.2.1, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/tzinfo-1.2.1/lib" />
+  </library>
+  <library name="tzinfo-data (v1.2014.3, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/tzinfo-data-1.2014.3/lib" />
+  </library>
+  <library name="tzinfo-data (v1.2014.5, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/tzinfo-data-1.2014.5/lib" />
+  </library>
+  <library name="uglifier (v2.5.0, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/uglifier-2.5.0/lib" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/uglifier-2.5.0/gemfiles" />
+  </library>
+  <library name="uglifier (v2.5.1, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/uglifier-2.5.1/lib" />
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/uglifier-2.5.1/gemfiles" />
+  </library>
+  <library name="warden (v1.2.3, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/warden-1.2.3/lib" />
+  </library>
+  <library name="will_paginate (v3.0.4, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/will_paginate-3.0.4/lib" />
+  </library>
+  <library name="yaml_db (v0.3.0, ruby-2.0.0-p481) [gem]">
+    <archive path="C:/Users/illdred/Utilities/Ruby200-x64/lib/ruby/gems/2.0.0/gems/yaml_db-0.3.0/lib" />
+  </library>
+</eclipse-userlibraries>
+
