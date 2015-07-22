@@ -79,8 +79,8 @@ private OutputStream socketOutput;
 }
  
  private void registerClientInfo() throws IOException, ClassNotFoundException{
-          EChequeRegisteration registerClient;
-          registerClient = (EChequeRegisteration)socketInputObject.readObject();
+          EChequeRegistration registerClient;
+          registerClient = (EChequeRegistration)socketInputObject.readObject();
           // get user account ID
           String accountID = "'"+registerClient.getAccountNumber()+"',";
           String cerit ="'"+registerClient.getClientName()+"DC.edc"+"',";
