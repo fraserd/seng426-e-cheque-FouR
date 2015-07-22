@@ -92,7 +92,7 @@ private OutputStream socketOutput;
           DigitalCertificateIO dcIO = new DigitalCertificateIO();
           dcIO.SaveDC(registDC,"Bank\\"+registerClient.getClientName()+"DC.edc");
           
-          socketOutputObject.writeObject("registeration complete");
+          socketOutputObject.writeObject("registration complete");
           socketOutputObject.flush();
           //JOptionPane.showMessageDialog(null,"Register Done");
         
@@ -116,7 +116,7 @@ private OutputStream socketOutput;
          //check if the balance sufficient
          double chequeMoney = Double.parseDouble(recivedCehq.getAmountOfMoney());   
          if(chequeMoney<=balanceValue[0]){
-             // cheque that the cheque is not canceld
+             // cheque that the cheque is not cancelled
              withdrawStat = "Select * from cancelledCheque where accountID ='"+recivedCehq.getAccountNumber()+"'and chequeID ='"+recivedCehq.getChequeNumber()+"'";
              if(!chqDB.runDBAndCheckResultSetHasMoreThanZeroRows(0, withdrawStat)){
                 withdrawStat = "Select * from eChequeOut where chequeID='"+recivedCehq.getChequeNumber()+"'and accountID='"+recivedCehq.getAccountNumber()+"'";
@@ -136,7 +136,7 @@ private OutputStream socketOutput;
                  chqDB.runDB(1,cheqUpdate);
                 
                 //report the deposit result
-                depositResult = "Your acoount recieves the deposit cheque\nyour balance incremented by"+recivedCehq.getAmountOfMoney();
+                depositResult = "Your account receives the deposit cheque\nyour balance incremented by"+recivedCehq.getAmountOfMoney();
                 }
                 else{
                     //report the deposit result
@@ -146,7 +146,7 @@ private OutputStream socketOutput;
              } 
              else{
                  //report the deposit result
-                depositResult ="This cheque is canceled by the drawer\nSorry we can not deposit it";
+                depositResult ="This cheque is cancelled by the drawer\nSorry we can not deposit it";
              }
          }
          else{
@@ -168,12 +168,12 @@ private OutputStream socketOutput;
                     +recivedCehq.getAccountNumber()+"','"+recivedCehq.getChequeNumber()+"')";
          EChequeDB chqDB = new EChequeDB();
          if(chqDB.runDB(1,cancelChequeStat)){
-            socketOutputObject.writeObject("cheque canceld done");
+            socketOutputObject.writeObject("cheque cancelled done");
             socketOutputObject.flush();
          
          }
          else{
-            socketOutputObject.writeObject("sorry cheque not canceled");
+            socketOutputObject.writeObject("sorry cheque not cancelled");
             socketOutputObject.flush();
          }
          
