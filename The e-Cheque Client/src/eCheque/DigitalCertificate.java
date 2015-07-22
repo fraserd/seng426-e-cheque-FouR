@@ -43,10 +43,6 @@ public class DigitalCertificate implements Serializable
     {
         Issuer= x;
     }
-    public void setSerialNumber(String x)
-    {
-        SerialNumber= x;
-    }
     public void setValidFrom (String x)
     {
         ValidFrom= x;
@@ -58,6 +54,10 @@ public class DigitalCertificate implements Serializable
     public void setPublicKey (PublicKey x)
     {
         publicKey= x;
+    }
+    public void setSerialNumber(String x)
+    {
+        SerialNumber= x;
     }
     public void setIssuerSignature (byte [] x)
     {
@@ -88,14 +88,13 @@ public class DigitalCertificate implements Serializable
     {
         return ValidTo;
     }
+    public byte[] getIssuerSignature()
+    {
+        return IssuerSignature;
+    }
     public PublicKey getpublicKey()
     {
         return publicKey;
-    }
-    
-         public byte[] getIssuerSignature()
-    {
-        return IssuerSignature;
     }
      
 }

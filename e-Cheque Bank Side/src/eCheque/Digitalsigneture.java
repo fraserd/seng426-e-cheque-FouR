@@ -38,13 +38,7 @@ public class Digitalsigneture
              Signature veryMessage = Signature.getInstance("SHA1withRSA");
              veryMessage.initVerify(pubKey);
              veryMessage.update(message.getBytes());
-             if (!veryMessage.verify(messagesign))
-             
-              return false;
-             
-             else
-                 
-                 return true;
+             return(veryMessage.verify(messagesign));
          }
              
 }

@@ -26,8 +26,7 @@ import java.io.*;
                    KeyGenerator KeyGen = KeyGenerator.getInstance("AES");
                    SecureRandom random =new SecureRandom();
                    KeyGen.init(random);
-                   SecretKey key =KeyGen.generateKey();
-                   return key;
+                   return KeyGen.generateKey();
 
          }
   
