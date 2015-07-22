@@ -87,7 +87,8 @@ public class EChequeDB {
         }
     
     }
-    
+
+    // returns true if database query succeeds, otherwise returns false
     public boolean runDB(int mode, String databaseStat){
         databaseMode = mode;
         boolean flag= false;
@@ -112,16 +113,15 @@ public class EChequeDB {
                     
         }
         finally{
-            
             closeDataBaseConnection();
-            if(flag)
-                return true;
-            else
-                return false;
-        }         
+        }
+        if(flag)
+            return true;
+        else
+            return false;
     }
-    
-    public boolean runDB(int mode, String databaseStat, double[]balance){
+
+    public boolean runDBAndSetBalanceFromResultSet(int mode, String databaseStat, double[] balance){
         databaseMode = mode;
         boolean flag= false;
         
@@ -134,16 +134,13 @@ public class EChequeDB {
             // run the specific sql statment
             executeSQLStatment(databaseStat,databaseMode);
             if(resultSet.next()){
-                balance[0] =resultSet.getDouble(1);
+                balance[0] = resultSet.getDouble(1);
                 flag = true;
             }
-            else{
+            else {
                 balance[0]=0.0;
                 flag = false;
-             }            
-            
-            
-            
+            }
         }
         catch(ClassNotFoundException exp){
             JOptionPane.showMessageDialog(null,exp.getMessage(),"DB Error",JOptionPane.ERROR_MESSAGE);
@@ -156,16 +153,16 @@ public class EChequeDB {
                     
         }
         finally{
-            
             closeDataBaseConnection();
-            if(flag)
-                return true;
-            else
-                return false;
-        }         
+        }
+        if(flag)
+            return true;
+        else
+            return false;
     }
-    
-    public boolean runDB(String databaseStat, int mode){
+
+    // returns true if database  query returns a result set with >= 1 row, otherwise returns false
+    public boolean runDBAndCheckResultSetHasMoreThanZeroRows(int mode, String databaseStat){
         databaseMode = mode;
         boolean flag= false;
         
@@ -180,12 +177,9 @@ public class EChequeDB {
             if(resultSet.next()){
                  flag = true;
             }
-            else{
+            else {
                  flag = false;
-             }            
-            
-            
-            
+            }
         }
         catch(ClassNotFoundException exp){
             JOptionPane.showMessageDialog(null,exp.getMessage(),"DB Error",JOptionPane.ERROR_MESSAGE);
@@ -195,16 +189,13 @@ public class EChequeDB {
         catch(SQLException exp){
             JOptionPane.showMessageDialog(null,exp.getMessage(),"DB Error",JOptionPane.ERROR_MESSAGE);
             exp.printStackTrace();
-                    
         }
         finally{
-            
             closeDataBaseConnection();
-            if(flag)
-                return true;
-            else
-                return false;
-        }         
+        }
+        if(flag)
+            return true;
+        else
+            return false;
     }
-
 }

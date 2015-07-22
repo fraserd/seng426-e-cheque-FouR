@@ -13,15 +13,8 @@
  */ 
 package eCheque;
 
-import com.sun.crypto.provider.*;
 import java.net.*;
-import java.io.* ;       
-import javax.crypto.IllegalBlockSizeException;
-import javax.crypto.NoSuchPaddingException;
-import javax.swing.JOptionPane;
-import javax.swing.JTextArea;
-import javax.crypto.Cipher;
-import java.security.*;
+import java.io.* ;
 
 public class Echqueserver implements Runnable{
     
@@ -119,15 +112,15 @@ private OutputStream socketOutput;
      double []balanceValue= new double [1];
      
      EChequeDB chqDB = new EChequeDB();
-     if(chqDB.runDB(0,withdrawStat,balanceValue)){
+     if(chqDB.runDBAndSetBalanceFromResultSet(0, withdrawStat, balanceValue)){
          //check if the balance sufficient
          double chequeMoney = Double.parseDouble(recivedCehq.getAmountOfMoney());   
          if(chequeMoney<=balanceValue[0]){
              // cheque that the cheque is not canceld
              withdrawStat = "Select * from cancelledCheque where accountID ='"+recivedCehq.getAccountNumber()+"'and chequeID ='"+recivedCehq.getChequeNumber()+"'";
-             if(!chqDB.runDB(withdrawStat,0)){
+             if(!chqDB.runDBAndCheckResultSetHasMoreThanZeroRows(0, withdrawStat)){
                 withdrawStat = "Select * from eChequeOut where chequeID='"+recivedCehq.getChequeNumber()+"'and accountID='"+recivedCehq.getAccountNumber()+"'";
-                if(!chqDB.runDB(withdrawStat,0)){
+                if(!chqDB.runDBAndCheckResultSetHasMoreThanZeroRows(0, withdrawStat)){
                 withdrawStat = "Update accounts set balance = balance -"+chequeMoney+"where accountID ="+recivedCehq.getAccountNumber();
                 chqDB.runDB(1,withdrawStat);
                 withdrawStat =  "Update accounts set balance = balance +"+chequeMoney+"where accountID ="+depositAccount;
