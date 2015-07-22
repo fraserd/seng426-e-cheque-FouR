@@ -332,12 +332,10 @@ public class ElectronicChequeJFrame extends javax.swing.JFrame {
                 passTemp+=password[i];
             }
         
-            if(password.length < 16){
             int pad = 16 - password.length;
-                for(int i=0; i<pad; i++){
-                   passTemp+=password[i];
-                }  
-            } 
+            for(int i=0; i<pad; i++){
+            	passTemp+=password[i];
+            }  
         }
         
         if(userName.hashCode()== registerdUser.getUsername()&& userName.length()!=0){

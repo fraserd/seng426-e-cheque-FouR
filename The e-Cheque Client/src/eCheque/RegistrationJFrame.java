@@ -404,16 +404,11 @@ public class RegistrationJFrame extends javax.swing.JFrame {
                                                         
                                                         // prepare the user name and password.
                                                         userNameCode = userName.hashCode();
-                                                        
-                                                        
-                                                        
-                                                        if(password.length<16){
-                                                          int pad = 16 - password.length;
-                                                          
-                                                          for(int i=0; i<pad; i++){
-                                                            passTemp+=password[i];
-                                                          }  
-                                                        }
+
+                                                        int pad = 16 - password.length;
+                                                        for(int i=0; i<pad; i++){
+                                                        	passTemp+=password[i];
+                                                        }  
                                                         passwordCode = passTemp.hashCode();
                                                         
                                                         //For Test: JOptionPane.showMessageDialog(null,passTemp);
