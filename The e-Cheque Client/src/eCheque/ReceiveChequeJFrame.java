@@ -182,10 +182,10 @@ public class ReceiveChequeJFrame extends javax.swing.JFrame {
                      
         }   
         catch(ClassNotFoundException exp){
-            
+            JOptionPane.showMessageDialog(null, exp.getMessage(), "ClassNotFoundException", JOptionPane.ERROR_MESSAGE);  
         }
         catch(IOException exp){
-            
+            JOptionPane.showMessageDialog(null, exp.getMessage(), "IOException", JOptionPane.ERROR_MESSAGE); 
         }
         
         
