@@ -17,10 +17,10 @@ import javax.swing.JOptionPane;
  *
  * @author Saad
  */
-public class BankSever implements Runnable{
+public class BankServer implements Runnable{
     private ServerSocket serverSocket;
     /** Creates a new instance of BankSever */
-    public BankSever() throws IOException{
+    public BankServer() throws IOException{
         
         serverSocket = new ServerSocket(8189);
     }
