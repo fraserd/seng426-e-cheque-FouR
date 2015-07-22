@@ -101,7 +101,7 @@ private void getSocketStream()throws Exception {
      SocketOutputObject=new ObjectOutputStream(ClientConnection.getOutputStream());
      SocketOutputObject.flush();
      
-     getServerConnection = true;
+     getSocketConnection = true;
  }
 
 private void processConnection()throws IOException,Exception,ClassNotFoundException,
