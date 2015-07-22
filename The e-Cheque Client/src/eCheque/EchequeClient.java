@@ -51,7 +51,7 @@ private boolean getProcessConnection;
 private boolean bankConnection;
 
 
-public EchequeClient(JTextArea screen , DigitalCertificate DC,Key aesKey,String wPath, String cPath, String host, int port){
+public EchequeClient(int port, String host, String cPath, String wPath, DigitalCertificate DC, Key aesKey, JTextArea screen){
 
     screenShell = screen;
     clientCerit = DC;

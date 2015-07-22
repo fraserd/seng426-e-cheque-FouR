@@ -266,8 +266,7 @@ public class SendChequeJFrame extends javax.swing.JFrame {
 
                             JOptionPane.showMessageDialog(null,"Strating client");
                             //Start Server Thread.
-                            Runnable threadingClient= new EchequeClient(jTShellWindow,clientDC,sessionKey,eChequeRegisterdUser.getEWalletLoaction(),
-                                    chequePath,hostName,8189);
+                            Runnable threadingClient= new EchequeClient(8189, hostName, chequePath, eChequeRegisterdUser.getEWalletLoaction(), clientDC, sessionKey, jTShellWindow);
                             Thread  client = new Thread(threadingClient);
                             client.start();
 
