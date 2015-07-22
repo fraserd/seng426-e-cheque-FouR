@@ -143,7 +143,7 @@ public class DigitalCertificateTest {
 		try {
 			pubKey = KeyPairGenerator.getInstance("RSA").generateKeyPair().getPublic();
 		} catch (NoSuchAlgorithmException e) {
-			fail("Testing of setter and getter for publicKey attribute is blocked by an issue in the RSAGenerator class: the GenerateRSAKeys() method is throwing an exception");
+			fail("Testing is blocked by an issue generating a public key");
 		}
 		
 		dc.setPublicKey(pubKey);
