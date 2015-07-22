@@ -35,10 +35,8 @@ private ObjectOutputStream socketOutputObject;
 private InputStream socketInput;
 private OutputStream socketOutput;
 private JTextArea screenShell;
-private EChequeRegisteration eChequeRegist;
 private DigitalCertificate serverCerit;
 private String walletPath;
-private int portID;
 private PrivateKey privKey;
 
  public Echqueserver(JTextArea screen,DigitalCertificate DC, String wPath,PrivateKey privateKey, ServerSocket serverSockect){
@@ -81,7 +79,6 @@ private PrivateKey privKey;
 
 	 //get the wraeped key and uwraped it
 	 byte[] wrappedKey;
-	 byte[] unwrappedKey;
 	 Key sessionKey;
 	 int keyLength; 
 
