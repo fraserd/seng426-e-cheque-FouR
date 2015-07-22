@@ -479,21 +479,21 @@ public class ChequeJFrame extends javax.swing.JFrame {
             verfiySign =verfiy.verifySignature(oldCheque.getdrawersiganure(),sigatureRef,drawerDC.getpublicKey());
             
                 if(verfiySign){
-                  JOptionPane.showMessageDialog(null,"The signature is vaild", "e-Cheque Clear",
+                  JOptionPane.showMessageDialog(null,"The signature is valid", "e-Cheque Clear",
                   JOptionPane.INFORMATION_MESSAGE);
                 }
                 else{
-                  JOptionPane.showMessageDialog(null,"The signature is not vaild", "e-Cheque not Clear",
+                  JOptionPane.showMessageDialog(null,"The signature is not valid", "e-Cheque not Clear",
                   JOptionPane.WARNING_MESSAGE);
                 }
             }
             catch(Exception exp){
-                JOptionPane.showMessageDialog(null,"Digital Certificate Courpted","Unknwon error",JOptionPane.ERROR_MESSAGE);
+                JOptionPane.showMessageDialog(null,"Digital certificate corrupted","Unknwon Error",JOptionPane.ERROR_MESSAGE);
             }
          
          }
          else{
-                JOptionPane.showMessageDialog(null,"You have to load tghe drawer Digital Certificate", "User Error",
+                JOptionPane.showMessageDialog(null,"You have to load the drawer digital certificate", "User Error",
                   JOptionPane.ERROR_MESSAGE);
          }
         
@@ -725,7 +725,7 @@ public class ChequeJFrame extends javax.swing.JFrame {
                 loadChequeFlag = true;
             }
             catch(Exception exp){
-                JOptionPane.showMessageDialog(null,"Invaild Cheque","Security Warning",JOptionPane.WARNING_MESSAGE);
+                JOptionPane.showMessageDialog(null,"Invalid cheque","Security Warning",JOptionPane.WARNING_MESSAGE);
             
             }
                        
