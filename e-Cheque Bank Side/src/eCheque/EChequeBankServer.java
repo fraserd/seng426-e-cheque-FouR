@@ -16,7 +16,7 @@ import javax.swing.JOptionPane;
 public class EChequeBankServer extends javax.swing.JFrame {
     
     private boolean serverStartFlag;
-    private Thread bankServerTread;
+    private Thread bankServerThread;
     /** Creates new form EChequeBankServer */
     public EChequeBankServer() {
         initComponents();
@@ -130,7 +130,7 @@ public class EChequeBankServer extends javax.swing.JFrame {
             try{
                 
                 JOptionPane.showMessageDialog(null,"The Server is going to shutdown","System Information",JOptionPane.INFORMATION_MESSAGE);
-                bankServerTread.stop();    
+                bankServerThread.stop();
                 Thread.sleep(5000);
                 System.exit(0);
             }
@@ -146,15 +146,15 @@ public class EChequeBankServer extends javax.swing.JFrame {
     private void jBStartMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jBStartMouseClicked
 // TODO add your handling code here:
         if(!serverStartFlag){
-            jTBankShell.append("\n\n>> Sever is going to start");
+            jTBankShell.append("\n\n>> Server is going to start");
             
             try{
             
-                Runnable runBank = new BankSever();
-                bankServerTread = new Thread(runBank);
-                bankServerTread.start();
+                Runnable runBank = new BankServer();
+                bankServerThread = new Thread(runBank);
+                bankServerThread.start();
                 serverStartFlag = true;
-                jTBankShell.append("\n\n>> Sever started");
+                jTBankShell.append("\n\n>> Server started");
             }
             catch(IOException exp){
                 
@@ -163,7 +163,7 @@ public class EChequeBankServer extends javax.swing.JFrame {
             
         }
         else{
-            JOptionPane.showMessageDialog(null,"The Server is aready running","System Information",JOptionPane.INFORMATION_MESSAGE);
+            JOptionPane.showMessageDialog(null,"The Server is already running","System Information",JOptionPane.INFORMATION_MESSAGE);
             
         }
     }//GEN-LAST:event_jBStartMouseClicked
