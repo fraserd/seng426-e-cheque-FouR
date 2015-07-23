@@ -37,12 +37,12 @@ public class SendChequeJFrameTest {
     public void testSendChequeJFrame() throws Exception {
         EChequeRegistration user = new EChequeRegistration();
         user.setUsername("fmd".hashCode());
-        user.setPasword("fuck".hashCode());
+        user.setPassword("fuck".hashCode());
         user.setAccountNumber("01");
         user.setBankAddress("http://127.0.0.1");
         user.setBankName("evil bank");
         user.setClientName("jimmy peas");
-        user.setEWalletLoaction("./");
+        user.setEWalletLocation("./");
 
 
         frame = new SendChequeJFrame(user);

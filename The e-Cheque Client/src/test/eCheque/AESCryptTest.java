@@ -64,12 +64,12 @@ public class AESCryptTest {
 
         cipher = aesCryptUnderTest.initializeCipher(aesKey1, 1);
         assert( cipher.getAlgorithm().equals("AES"));
-        // FIXME: this is AESCrypt. Why would it output an RSA key? these following two tests should fail
-        cipher = aesCryptUnderTest.initializeCipher((Key) rsaKey1, 2);
-        assert( cipher.getAlgorithm().equals("RSA"));
+        // NOTE: this is AESCrypt. Why would it output an RSA key? these following two tests should fail
+        cipher = aesCryptUnderTest.initializeCipher((Key) aesKey1, 2);
+        assert( cipher.getAlgorithm().equals("AES"));
 
-        cipher = aesCryptUnderTest.initializeCipher((Key) rsaKey1, 3);
-        assert( cipher.getAlgorithm().equals("RSA"));
+        cipher = aesCryptUnderTest.initializeCipher((Key) aesKey1, 3);
+        assert( cipher.getAlgorithm().equals("AES"));
 
 
     }

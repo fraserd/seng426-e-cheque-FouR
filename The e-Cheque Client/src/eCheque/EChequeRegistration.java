@@ -47,7 +47,7 @@ public class EChequeRegistration implements Serializable {
         clientName = cName;
     }
     
-    public void setEWalletLoaction(String path){
+    public void setEWalletLocation(String path){
         eWalletLocation = path;
     }
     
@@ -55,7 +55,7 @@ public class EChequeRegistration implements Serializable {
         userNameHash = hashValue;
     }
     
-    public void setPasword(int hashValue){
+    public void setPassword(int hashValue){
         passwordHash = hashValue;
     }
     
@@ -75,7 +75,7 @@ public class EChequeRegistration implements Serializable {
         return clientName;
     }
     
-    public String getEWalletLoaction(){
+    public String getEWalletLocation(){
         return eWalletLocation;
     }
     
@@ -83,7 +83,7 @@ public class EChequeRegistration implements Serializable {
         return userNameHash;
     }
     
-    public int getPasword(){
+    public int getPassword(){
         return passwordHash;
     }
     
