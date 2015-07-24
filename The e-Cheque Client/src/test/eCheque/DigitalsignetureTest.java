@@ -17,7 +17,7 @@ public class DigitalsignetureTest {
 
 	@Test
 	public void signetureTest() {
-		ObjectInputStream objIn = null;
+		ObjectInputStream objIn = null; 
 		try {
 			objIn = new ObjectInputStream (new FileInputStream("C:\\Users\\Darren\\git\\seng426-e-cheque-FouR\\e-Cheque Bank Side\\Bank\\Security Tools\\Security Tools\\PrivateKey.key"));
 		} catch (IOException e) {
