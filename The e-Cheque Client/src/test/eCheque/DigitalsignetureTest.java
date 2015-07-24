@@ -19,7 +19,7 @@ public class DigitalsignetureTest {
 	public void signetureTest() {
 		ObjectInputStream objIn = null; 
 		try {
-			objIn = new ObjectInputStream (new FileInputStream("C:\\Users\\Darren\\git\\seng426-e-cheque-FouR\\e-Cheque Bank Side\\Bank\\Security Tools\\Security Tools\\PrivateKey.key"));
+			objIn = new ObjectInputStream (new FileInputStream("..\\e-Cheque Bank Side\\Bank\\Security Tools\\Private Key.key"));
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -61,7 +61,7 @@ public class DigitalsignetureTest {
 	public void verifySignetureTest() {
 		ObjectInputStream objIn = null;
 		try {
-			objIn = new ObjectInputStream (new FileInputStream("C:\\Users\\Darren\\git\\seng426-e-cheque-FouR\\e-Cheque Bank Side\\Bank\\Security Tools\\Security Tools\\PrivateKey.key"));
+			objIn = new ObjectInputStream (new FileInputStream("..\\e-Cheque Bank Side\\Bank\\Security Tools\\Private Key.key"));
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
